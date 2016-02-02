@@ -8,12 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
-
-#warning Replace UIFont factory helpers with `systemFontOfSize:weight:` methods.
-
-#endif
-
+/**
+ UIFont factory for different weights.
+ @warning Replace UIFont factory helpers with `systemFontOfSize:weight:` methods.
+ */
 @interface UIFont (ELNUtils)
 
 + (UIFont *)eln_semiboldSystemFontOfSize:(CGFloat)size;
