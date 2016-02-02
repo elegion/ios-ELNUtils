@@ -60,4 +60,12 @@
     return [self eln_objectPassingTest:predicate] != nil;
 }
 
+- (void)eln_apply:(void (^)(id))block {
+    if (block) {
+        [self enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            block(obj);
+        }];
+    }
+}
+
 @end
