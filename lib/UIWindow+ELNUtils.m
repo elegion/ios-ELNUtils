@@ -89,4 +89,29 @@
     }
 }
 
+- (UIViewController *)eln_topViewController
+{
+    id topViewController = self.rootViewController;
+    
+    UIViewController *presentedController;
+    while ((presentedController = [topViewController presentedViewController])
+           && ![presentedController isKindOfClass:[UIAlertController class]]
+           && ![presentedController isBeingDismissed])
+    {
+        topViewController = presentedController;
+    }
+    
+    BOOL isTabBarController, isNavigationController;
+    while ((isNavigationController = [topViewController isKindOfClass:[UINavigationController class]]) ||
+           (isTabBarController = [topViewController isKindOfClass:[UITabBarController class]]))
+    {
+        if (isNavigationController) {
+            topViewController = [topViewController topViewController];
+        } else {
+            topViewController = [topViewController selectedViewController];
+        }
+    }
+    return topViewController;
+}
+
 @end
