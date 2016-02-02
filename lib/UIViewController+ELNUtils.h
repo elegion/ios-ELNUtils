@@ -8,20 +8,26 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (ELNUtils)
+@interface UIViewController (ELNChildViewControllerManagement)
 
-/// Adds self as child view controller with specified view block.
-///
-/// You must layout and attach subviews by tourself in `viewLoadBlock`.
+/** 
+ Adds self as child view controller with specified view block.
+ You must layout and attach subviews by yourself in `viewLoadBlock`.
+ */
 - (void)eln_addChildViewController:(UIViewController *)viewController viewLoadBlock:(void (^)())viewLoadBlock;
 
-/// Removes self view controller from parent view controller in containment hierarchy
+/// Removes self view controller from parent view controller in containment hierarchy.
 - (void)eln_removeFromParentViewController;
 
-/// Interactive transition selection cleaner for UITableView and UICollectionView instances
+@end
+
+
+@interface UIViewController (ELNUtils)
+
+/// Interactive transition selection cleaner for UITableView and UICollectionView instances.
 - (void)eln_clearSelectionOnViewWillAppearForView:(__kindof UIScrollView *)view;
 
-/// Interactive transition completion handler
+/// Interactive transition completion handler.
 - (void)eln_performTransitionCompletionHandlerWithBlock:(void (^)(BOOL cancelled))completion;
 
 @end

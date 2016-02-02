@@ -8,7 +8,7 @@
 
 #import "UIViewController+ELNUtils.h"
 
-@implementation UIViewController (ELNUtils)
+@implementation UIViewController (ELNChildViewControllerManagement)
 
 - (void)eln_addChildViewController:(UIViewController *)viewController viewLoadBlock:(void (^)())viewLoadBlock {
     [self addChildViewController:viewController];
@@ -23,6 +23,11 @@
     [self.view removeFromSuperview];
     [self removeFromParentViewController];
 }
+
+@end
+
+
+@implementation UIViewController (ELNUtils)
 
 - (void)eln_clearSelectionOnViewWillAppearForView:(__kindof UIScrollView *)view {
     NSParameterAssert([view isKindOfClass:[UITableView class]] || [view isKindOfClass:[UICollectionView class]]);
