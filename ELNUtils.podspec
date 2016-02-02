@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ELNUtils"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/elegion/ios-pods-ELNUtils", :tag => "v#{s.version}" }
   s.source_files = "lib"
