@@ -11,7 +11,12 @@
 @implementation NSArray (ELNUtils)
 
 - (id)eln_objectPassingTest:(BOOL (^)(id, NSUInteger, BOOL *))predicate {
-    return [self eln_objectWithOptions:0 passingTest:predicate];
+    NSUInteger index = [self indexOfObjectPassingTest:predicate];
+    if (index == NSNotFound) {
+        return nil;
+    } else {
+        return self[index];
+    }
 }
 
 - (id)eln_objectWithOptions:(NSEnumerationOptions)options passingTest:(BOOL (^)(id obj, NSUInteger idx, BOOL *stop))predicate {
@@ -21,6 +26,14 @@
     } else {
         return self[index];
     }
+}
+
+- (NSArray *)eln_objectsPassingTest:(BOOL (^)(id obj, NSUInteger idx, BOOL *stop))predicate {
+    return [self objectsAtIndexes:[self indexesOfObjectsPassingTest:predicate]];
+}
+
+- (NSArray *)eln_objectsWithOptions:(NSEnumerationOptions)options passingTest:(BOOL (^)(id obj, NSUInteger idx, BOOL *stop))predicate {
+    return [self objectsAtIndexes:[self indexesOfObjectsWithOptions:options passingTest:predicate]];
 }
 
 - (NSArray *)eln_map:(id (^)(id obj, NSUInteger index, BOOL *stop))predicate {
@@ -41,6 +54,10 @@
         }
     }
     return [result copy];
+}
+
+- (BOOL)eln_any:(BOOL (^)(id, NSUInteger, BOOL *))predicate {
+    return [self eln_objectPassingTest:predicate] != nil;
 }
 
 @end
