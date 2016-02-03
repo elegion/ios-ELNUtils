@@ -22,7 +22,10 @@
 /// Map objects to returned values, filter out those ones where nil is returned.
 - (NSArray *)eln_map:(id (^)(ObjectType obj, NSUInteger idx, BOOL *stop))predicate;
 
-/// Enumerate objects executing block.
+/** 
+Enumerate objects executing block. Same as enumerateObjectsUsingBlock: but very useful 
+to avoid parameter variable shadowing during nested block usage.
+*/
 - (void)eln_apply:(void (^)(ObjectType obj))block;
 
 @end
