@@ -6,7 +6,7 @@
 //  Copyright © 2015 e-legion. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface UITableViewCell (ELNUtils)
 
