@@ -15,3 +15,10 @@
 - (__kindof UIView *)eln_superviewWithClass:(Class)superviewClass;
 
 @end
+
+
+@interface UIView (ELNNibLoading)
+
++ (instancetype)eln_loadFromNib;
+
+@end

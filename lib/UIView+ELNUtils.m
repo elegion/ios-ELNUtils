@@ -42,3 +42,16 @@
 }
 
 @end
+
+
+@implementation UIView (ELNNibLoading)
+
++ (instancetype)eln_loadFromNib {
+    UINib *nib = [UINib nibWithNibName:NSStringFromClass(self) bundle:nil];
+    NSAssert(nib != nil, @"Nib named %@ not found", self);
+    UIView *view = [nib instantiateWithOwner:nil options:nil].firstObject;
+    NSAssert([view isMemberOfClass:self], @"Couldn't load proper view from nib (%@)", self);
+    return view;
+}
+
+@end
