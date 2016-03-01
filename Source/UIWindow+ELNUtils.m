@@ -10,8 +10,7 @@
 
 @implementation UIWindow (ELNUtils)
 
-- (void)eln_replaceRootViewControllerWithViewController:(UIViewController *)viewController animation:(ELNRootViewControllerTransitionAnimation)animation completion:(void (^)(BOOL finished))completion
-{
+- (void)eln_replaceRootViewControllerWithViewController:(UIViewController *)viewController animation:(ELNRootViewControllerTransitionAnimation)animation completion:(void (^)(BOOL finished))completion {
     BOOL hasVisibleView = self.rootViewController != nil && self.rootViewController.isViewLoaded && self.rootViewController.view.layer.presentationLayer != nil;
     if (!hasVisibleView) {
         self.rootViewController = viewController;
@@ -62,13 +61,9 @@
         UIView *rootViewControllerView = [rootViewController.view snapshotViewAfterScreenUpdates:NO];
         self.rootViewController = viewController;
         [self.rootViewController.view addSubview:rootViewControllerView];
-        
-        [UIView transitionWithView:self
-                          duration:0.5
-                           options:options
-                        animations:^{
-                            [rootViewControllerView removeFromSuperview];
-                        } completion:completion_];
+        [UIView transitionWithView:self duration:0.33 options:options animations:^{
+            [rootViewControllerView removeFromSuperview];
+        } completion:completion_];
     } else {
         self.rootViewController = viewController;
         completion_(YES);
