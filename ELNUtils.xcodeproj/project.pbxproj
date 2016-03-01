@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		111D9F5B1C85F1C600CF71B4 /* ELNCommonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 111D9F2E1C85F1C600CF71B4 /* ELNCommonUtils.h */; };
 		111D9F5C1C85F1C600CF71B4 /* ELNLayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 111D9F2F1C85F1C600CF71B4 /* ELNLayoutUtils.h */; };
 		111D9F5D1C85F1C600CF71B4 /* ELNLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F301C85F1C600CF71B4 /* ELNLayoutUtils.m */; };
 		111D9F5E1C85F1C600CF71B4 /* ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 111D9F311C85F1C600CF71B4 /* ELNUtils.h */; };
-		111D9F5F1C85F1C600CF71B4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 111D9F321C85F1C600CF71B4 /* Info.plist */; };
 		111D9F601C85F1C600CF71B4 /* NSArray+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 111D9F331C85F1C600CF71B4 /* NSArray+ELNUtils.h */; };
 		111D9F611C85F1C600CF71B4 /* NSArray+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F341C85F1C600CF71B4 /* NSArray+ELNUtils.m */; };
 		111D9F621C85F1C600CF71B4 /* NSData+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 111D9F351C85F1C600CF71B4 /* NSData+ELNUtils.h */; };
@@ -55,6 +53,7 @@
 		111D9F941C85F46700CF71B4 /* ELNUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111D9F221C85F17600CF71B4 /* ELNUtils.framework */; };
 		111D9F9E1C85F47500CF71B4 /* UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F9C1C85F47500CF71B4 /* UnitTest.m */; };
 		111D9FA01C85F52200CF71B4 /* Default.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 111D9F9F1C85F52200CF71B4 /* Default.xcconfig */; };
+		111D9FA21C85FAA700CF71B4 /* ELNRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 111D9FA11C85FAA700CF71B4 /* ELNRuntime.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +68,6 @@
 
 /* Begin PBXFileReference section */
 		111D9F221C85F17600CF71B4 /* ELNUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELNUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		111D9F2E1C85F1C600CF71B4 /* ELNCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNCommonUtils.h; sourceTree = "<group>"; };
 		111D9F2F1C85F1C600CF71B4 /* ELNLayoutUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNLayoutUtils.h; sourceTree = "<group>"; };
 		111D9F301C85F1C600CF71B4 /* ELNLayoutUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNLayoutUtils.m; sourceTree = "<group>"; };
 		111D9F311C85F1C600CF71B4 /* ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNUtils.h; sourceTree = "<group>"; };
@@ -118,6 +116,7 @@
 		111D9F9B1C85F47500CF71B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		111D9F9C1C85F47500CF71B4 /* UnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitTest.m; sourceTree = "<group>"; };
 		111D9F9F1C85F52200CF71B4 /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
+		111D9FA11C85FAA700CF71B4 /* ELNRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNRuntime.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				111D9F9F1C85F52200CF71B4 /* Default.xcconfig */,
+				111D9F311C85F1C600CF71B4 /* ELNUtils.h */,
 				111D9F321C85F1C600CF71B4 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -179,10 +179,7 @@
 		111D9F891C85F1DD00CF71B4 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				111D9F2E1C85F1C600CF71B4 /* ELNCommonUtils.h */,
-				111D9F2F1C85F1C600CF71B4 /* ELNLayoutUtils.h */,
-				111D9F301C85F1C600CF71B4 /* ELNLayoutUtils.m */,
-				111D9F311C85F1C600CF71B4 /* ELNUtils.h */,
+				111D9FA11C85FAA700CF71B4 /* ELNRuntime.h */,
 				111D9F331C85F1C600CF71B4 /* NSArray+ELNUtils.h */,
 				111D9F341C85F1C600CF71B4 /* NSArray+ELNUtils.m */,
 				111D9F351C85F1C600CF71B4 /* NSData+ELNUtils.h */,
@@ -208,6 +205,8 @@
 		111D9F8A1C85F1F600CF71B4 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				111D9F2F1C85F1C600CF71B4 /* ELNLayoutUtils.h */,
+				111D9F301C85F1C600CF71B4 /* ELNLayoutUtils.m */,
 				111D9F451C85F1C600CF71B4 /* UICollectionView+ELNUtils.h */,
 				111D9F461C85F1C600CF71B4 /* UICollectionView+ELNUtils.m */,
 				111D9F471C85F1C600CF71B4 /* UIColor+ELNUtils.h */,
@@ -258,7 +257,6 @@
 				111D9F6E1C85F1C600CF71B4 /* NSString+ELNUtils.h in Headers */,
 				111D9F781C85F1C600CF71B4 /* UIImage+ELNUtils.h in Headers */,
 				111D9F6C1C85F1C600CF71B4 /* NSSortDescriptor+ELNUtils.h in Headers */,
-				111D9F5B1C85F1C600CF71B4 /* ELNCommonUtils.h in Headers */,
 				111D9F601C85F1C600CF71B4 /* NSArray+ELNUtils.h in Headers */,
 				111D9F7E1C85F1C600CF71B4 /* UITableView+ELNUtils.h in Headers */,
 				111D9F641C85F1C600CF71B4 /* NSError+ELNUtils.h in Headers */,
@@ -269,6 +267,7 @@
 				111D9F621C85F1C600CF71B4 /* NSData+ELNUtils.h in Headers */,
 				111D9F821C85F1C600CF71B4 /* UIView+ELNUtils.h in Headers */,
 				111D9F7A1C85F1C600CF71B4 /* UILabel+ELNUtils.h in Headers */,
+				111D9FA21C85FAA700CF71B4 /* ELNRuntime.h in Headers */,
 				111D9F761C85F1C600CF71B4 /* UIFont+ELNUtils.h in Headers */,
 				111D9F861C85F1C600CF71B4 /* UIWindow+ELNUtils.h in Headers */,
 				111D9F661C85F1C600CF71B4 /* NSFileManager+ELNUtils.h in Headers */,
@@ -356,7 +355,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				111D9FA01C85F52200CF71B4 /* Default.xcconfig in Resources */,
-				111D9F5F1C85F1C600CF71B4 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
