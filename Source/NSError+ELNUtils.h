@@ -11,8 +11,5 @@
 @interface NSError (ELNUtils)
 
 @property (nonatomic, readonly) BOOL eln_isNetworkError;
-@property (nonatomic, readonly) BOOL eln_isNetworkOperationCancelledError;
-
-- (BOOL)eln_matchesDomain:(NSString *)domain code:(NSInteger)code;
 
 @end

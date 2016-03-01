@@ -36,13 +36,4 @@
     }
 }
 
-- (BOOL)eln_isNetworkOperationCancelledError {
-    return [self eln_matchesDomain:NSURLErrorDomain code:NSURLErrorCancelled]
-    || [self eln_matchesDomain:NSCocoaErrorDomain code:NSUserCancelledError];
-}
-
-- (BOOL)eln_matchesDomain:(NSString *)domain code:(NSInteger)code {
-    return [self.domain isEqualToString:domain] && self.code == code;
-}
-
 @end
