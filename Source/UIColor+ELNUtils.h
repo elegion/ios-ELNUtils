@@ -16,4 +16,6 @@
 
 + (UIColor *)eln_colorWithHexString:(NSString *)hexString;
 
+- (UIColor *)eln_blendWithColor:(UIColor *)color alpha:(CGFloat)alpha;
+
 @end
