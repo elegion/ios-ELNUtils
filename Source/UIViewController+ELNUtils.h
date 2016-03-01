@@ -19,11 +19,6 @@
 /// Removes self view controller from parent view controller in containment hierarchy.
 - (void)eln_removeFromParentViewController;
 
-@end
-
-
-@interface UIViewController (ELNUtils)
-
 /// Interactive transition selection cleaner for UITableView and UICollectionView instances.
 - (void)eln_clearSelectionOnViewWillAppearForView:(__kindof UIScrollView *)view;
 

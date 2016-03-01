@@ -24,11 +24,6 @@
     [self removeFromParentViewController];
 }
 
-@end
-
-
-@implementation UIViewController (ELNUtils)
-
 - (void)eln_clearSelectionOnViewWillAppearForView:(__kindof UIScrollView *)view {
     NSParameterAssert([view isKindOfClass:[UITableView class]] || [view isKindOfClass:[UICollectionView class]]);
     
