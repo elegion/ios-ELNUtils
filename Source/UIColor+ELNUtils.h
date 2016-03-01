@@ -11,6 +11,9 @@
 @interface UIColor (ELNUtils)
 
 + (UIColor *)eln_colorWithHex:(unsigned)hex;
+
+- (NSString *)eln_hex;
+
 + (UIColor *)eln_colorWithHexString:(NSString *)hexString;
 
 @end
