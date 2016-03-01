@@ -8,7 +8,6 @@
 
 #import "NSString+ELNUtils.h"
 #import "NSLocale+ELNUtils.h"
-#import "NSData+ELNUtils.h"
 
 @implementation NSString (ELNUtils)
 
@@ -40,17 +39,35 @@
     return number;
 }
 
-@end
-
-
-@implementation NSString (ELNLocalization)
-
 + (NSString *)eln_localizedStringWithFormat:(NSString *)format, ... {
     NSLocale *locale = [NSLocale eln_localeForPreferredLocalization];
     
     va_list ap;
     va_start(ap, format);
     return [[NSString alloc] initWithFormat:format locale:locale arguments:ap];
+}
+
+- (CGRect)eln_boundingRectWithSize:(CGSize)size font:(UIFont *)font lineBreakMode:(NSLineBreakMode)lineBreakMode numberOfLines:(NSInteger)numberOfLines {
+    NSMutableDictionary *attributes = [NSMutableDictionary new];
+    
+    // font
+    if (font) {
+        attributes[NSFontAttributeName] = font;
+    }
+    
+    // linebreak mode
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle defaultParagraphStyle] mutableCopy];
+    paragraphStyle.lineBreakMode = lineBreakMode;
+    attributes[NSParagraphStyleAttributeName] = paragraphStyle;
+    
+    // options
+    NSStringDrawingOptions options = numberOfLines != 1 ? NSStringDrawingUsesLineFragmentOrigin : NSStringDrawingTruncatesLastVisibleLine;
+    
+    CGRect rect = [self boundingRectWithSize:size options:options attributes:attributes context:nil];
+    rect.size.width =  ceil(rect.size.width);
+    rect.size.height =  ceil(rect.size.height);
+    
+    return rect;
 }
 
 @end

@@ -6,7 +6,7 @@
 //  Copyright © 2015 e-legion. All rights reserved.
 //
 
-@import Foundation;
+@import UIKit;
 
 @interface NSString (ELNUtils)
 
@@ -15,13 +15,9 @@
 
 /// Returns a string with first letter uppercased.
 - (NSString *)eln_uppercaseFirstLetterString;
+
 /// Returns number value from decimal number strings.
 - (NSNumber *)eln_numberValue;
-
-@end
-
-
-@interface NSString (ELNLocalization)
 
 /**
  Returns an NSString object initialized by using a given format string as a template
@@ -32,5 +28,7 @@
  @see http://maniak-dobrii.com/understanding-ios-internationalization/
  */
 + (NSString *)eln_localizedStringWithFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(1,2);
+
+- (CGRect)eln_boundingRectWithSize:(CGSize)size font:(UIFont *)font lineBreakMode:(NSLineBreakMode)lineBreakMode numberOfLines:(NSInteger)numberOfLines;
 
 @end
