@@ -10,8 +10,6 @@
 
 @interface NSString (ELNUtils)
 
-/// Checks if specified characters are contained in string.
-- (BOOL)eln_containsCharactersInSet:(NSCharacterSet *)characterSet;
 /// Removes specified characters from string
 - (NSString *)eln_stringByRemovingCharactersInSet:(NSCharacterSet *)characterSet;
 

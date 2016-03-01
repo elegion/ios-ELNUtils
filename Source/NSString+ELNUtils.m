@@ -12,10 +12,6 @@
 
 @implementation NSString (ELNUtils)
 
-- (BOOL)eln_containsCharactersInSet:(NSCharacterSet *)characterSet {
-    return [self eln_stringByRemovingCharactersInSet:characterSet].length != self.length;
-}
-
 - (NSString *)eln_stringByRemovingCharactersInSet:(NSCharacterSet *)characterSet {
     return [[self componentsSeparatedByCharactersInSet:characterSet] componentsJoinedByString:@""];
 }
