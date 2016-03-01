@@ -8,6 +8,8 @@
 
 @import UIKit;
 
+NS_ASSUME_NONNULL_BEGIN
+
 typedef NS_ENUM(NSInteger, ELNRootViewControllerTransitionAnimation) {
     ELNRootViewControllerTransitionAnimationNone,
     ELNRootViewControllerTransitionAnimationFromLeft,
@@ -21,6 +23,8 @@ typedef NS_ENUM(NSInteger, ELNRootViewControllerTransitionAnimation) {
  Replaces root view controller with specified animation.
  Often used by the auth <-> main screens transition.
  */
-- (void)eln_replaceRootViewControllerWithViewController:(UIViewController *)viewController animation:(ELNRootViewControllerTransitionAnimation)animation completion:(void (^)(BOOL finished))completion;
+- (void)eln_replaceRootViewControllerWithViewController:(UIViewController *)viewController animation:(ELNRootViewControllerTransitionAnimation)animation completion:(void (^ _Nullable)(BOOL finished))completion;
 
 @end
+
+NS_ASSUME_NONNULL_END

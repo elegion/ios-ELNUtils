@@ -8,13 +8,15 @@
 
 @import UIKit;
 
-@interface UIViewController (ELNChildViewControllerManagement)
+NS_ASSUME_NONNULL_BEGIN
+
+@interface UIViewController (ELNUtils)
 
 /** 
  Adds self as child view controller with specified view block.
  You must layout and attach subviews by yourself in `viewLoadBlock`.
  */
-- (void)eln_addChildViewController:(UIViewController *)viewController viewLoadBlock:(void (^)())viewLoadBlock;
+- (void)eln_addChildViewController:(UIViewController *)viewController viewLoadBlock:(void (^ _Nullable)())viewLoadBlock;
 
 /// Removes self view controller from parent view controller in containment hierarchy.
 - (void)eln_removeFromParentViewController;
@@ -26,3 +28,5 @@
 - (void)eln_performTransitionCompletionHandlerWithBlock:(void (^)(BOOL cancelled))completion;
 
 @end
+
+NS_ASSUME_NONNULL_END
