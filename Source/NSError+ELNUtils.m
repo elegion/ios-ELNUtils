@@ -10,19 +10,6 @@
 
 @implementation NSError (ELNUtils)
 
-- (NSString *)eln_localizedDescription {
-    NSString *result;
-    if ([self eln_isNetworkError]) {
-        NSString *key = @"error.network.unavailable";
-        result = NSLocalizedString(key, nil);
-        if (![result isEqualToString:key]) {
-            return result;
-        }
-    }
-    
-    return self.localizedDescription;
-}
-
 - (BOOL)eln_isNetworkError {
     if (![self.domain isEqualToString:NSURLErrorDomain]) {
         return NO;
