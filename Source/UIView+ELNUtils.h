@@ -14,11 +14,8 @@
 
 - (__kindof UIView *)eln_superviewWithClass:(Class)superviewClass;
 
-@end
++ (instancetype)eln_viewFromNibInBundle:(NSBundle *)bundle owner:(id)owner options:(NSDictionary *)options;
 
-
-@interface UIView (ELNNibLoading)
-
-+ (instancetype)eln_loadFromNib;
++ (instancetype)eln_viewFromNibInBundle:(NSBundle *)bundle;
 
 @end
