@@ -52,7 +52,19 @@
 		111D9F851C85F1C600CF71B4 /* UIViewController+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F581C85F1C600CF71B4 /* UIViewController+ELNUtils.m */; };
 		111D9F861C85F1C600CF71B4 /* UIWindow+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 111D9F591C85F1C600CF71B4 /* UIWindow+ELNUtils.h */; };
 		111D9F871C85F1C600CF71B4 /* UIWindow+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F5A1C85F1C600CF71B4 /* UIWindow+ELNUtils.m */; };
+		111D9F941C85F46700CF71B4 /* ELNUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111D9F221C85F17600CF71B4 /* ELNUtils.framework */; };
+		111D9F9E1C85F47500CF71B4 /* UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F9C1C85F47500CF71B4 /* UnitTest.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		111D9F951C85F46700CF71B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111D9F191C85F17600CF71B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111D9F211C85F17600CF71B4;
+			remoteInfo = ELNUtils;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		111D9F221C85F17600CF71B4 /* ELNUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELNUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +113,9 @@
 		111D9F581C85F1C600CF71B4 /* UIViewController+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ELNUtils.m"; sourceTree = "<group>"; };
 		111D9F591C85F1C600CF71B4 /* UIWindow+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ELNUtils.h"; sourceTree = "<group>"; };
 		111D9F5A1C85F1C600CF71B4 /* UIWindow+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+ELNUtils.m"; sourceTree = "<group>"; };
+		111D9F8F1C85F46700CF71B4 /* UnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		111D9F9B1C85F47500CF71B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111D9F9C1C85F47500CF71B4 /* UnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,14 +126,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		111D9F8C1C85F46700CF71B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111D9F941C85F46700CF71B4 /* ELNUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		111D9F181C85F17600CF71B4 = {
 			isa = PBXGroup;
 			children = (
-				111D9F2D1C85F1C600CF71B4 /* Source */,
 				111D9F231C85F17600CF71B4 /* Products */,
+				111D9F2D1C85F1C600CF71B4 /* Source */,
+				111D9F9A1C85F47500CF71B4 /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				111D9F221C85F17600CF71B4 /* ELNUtils.framework */,
+				111D9F8F1C85F46700CF71B4 /* UnitTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,6 +231,15 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
+		111D9F9A1C85F47500CF71B4 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				111D9F9B1C85F47500CF71B4 /* Info.plist */,
+				111D9F9C1C85F47500CF71B4 /* UnitTest.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -260,6 +294,24 @@
 			productReference = 111D9F221C85F17600CF71B4 /* ELNUtils.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		111D9F8E1C85F46700CF71B4 /* UnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111D9F971C85F46700CF71B4 /* Build configuration list for PBXNativeTarget "UnitTest" */;
+			buildPhases = (
+				111D9F8B1C85F46700CF71B4 /* Sources */,
+				111D9F8C1C85F46700CF71B4 /* Frameworks */,
+				111D9F8D1C85F46700CF71B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111D9F961C85F46700CF71B4 /* PBXTargetDependency */,
+			);
+			name = UnitTest;
+			productName = UnitTest;
+			productReference = 111D9F8F1C85F46700CF71B4 /* UnitTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -270,6 +322,9 @@
 				ORGANIZATIONNAME = "e-legion";
 				TargetAttributes = {
 					111D9F211C85F17600CF71B4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					111D9F8E1C85F46700CF71B4 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -287,6 +342,7 @@
 			projectRoot = "";
 			targets = (
 				111D9F211C85F17600CF71B4 /* ELNUtils */,
+				111D9F8E1C85F46700CF71B4 /* UnitTest */,
 			);
 		};
 /* End PBXProject section */
@@ -297,6 +353,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				111D9F5F1C85F1C600CF71B4 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111D9F8D1C85F46700CF71B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +394,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		111D9F8B1C85F46700CF71B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111D9F9E1C85F47500CF71B4 /* UnitTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111D9F961C85F46700CF71B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 111D9F211C85F17600CF71B4 /* ELNUtils */;
+			targetProxy = 111D9F951C85F46700CF71B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		111D9F281C85F17600CF71B4 /* Debug */ = {
@@ -456,6 +535,28 @@
 			};
 			name = Release;
 		};
+		111D9F981C85F46700CF71B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UnitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.UnitTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		111D9F991C85F46700CF71B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UnitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.UnitTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -476,6 +577,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		111D9F971C85F46700CF71B4 /* Build configuration list for PBXNativeTarget "UnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111D9F981C85F46700CF71B4 /* Debug */,
+				111D9F991C85F46700CF71B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
