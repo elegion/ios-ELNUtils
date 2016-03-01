@@ -13,11 +13,11 @@ static NSString *ELNStringByAddingSlashes(NSString *string) {
     return string;
 }
 
-@implementation NSURLRequest (ELNUtils)
+@implementation NSURLRequest (ELNHelpers)
 
 - (NSString *)eln_CURL {
     NSMutableArray *args = [NSMutableArray new];
-    NSMutableArray *flags = [NSMutableArray new];
+    NSMutableArray *flags = [[NSMutableArray alloc] initWithObjects:@"-sS", nil];
     
     // method
     NSString *method = [NSString stringWithFormat:@"-X \"%@\"", ELNStringByAddingSlashes(self.HTTPMethod ?: @"GET")];
