@@ -77,5 +77,18 @@
     }];
 }
 
+- (CGFloat)eln_topLayoutGuideLength {
+    CGFloat topLayoutGuideLength;
+    
+    if (self.navigationController.navigationBar != nil) {
+        topLayoutGuideLength = MAX(0, CGRectGetMaxY([self.navigationController.navigationBar convertRect:self.navigationController.navigationBar.bounds toView:self.view]));
+    } else {
+        CGRect statusBarFrame = [UIApplication sharedApplication].statusBarFrame;
+        topLayoutGuideLength = MIN(statusBarFrame.size.width, statusBarFrame.size.height);
+    }
+    
+    return MAX(topLayoutGuideLength, [self.topLayoutGuide length]);
+}
+
 
 @end

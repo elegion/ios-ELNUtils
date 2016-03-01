@@ -27,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// Interactive transition completion handler.
 - (void)eln_performTransitionCompletionHandlerWithBlock:(void (^)(BOOL cancelled))completion;
 
+- (CGFloat)eln_topLayoutGuideLength;
+
 @end
 
 NS_ASSUME_NONNULL_END
