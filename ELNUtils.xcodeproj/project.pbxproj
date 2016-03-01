@@ -54,6 +54,7 @@
 		111D9F871C85F1C600CF71B4 /* UIWindow+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F5A1C85F1C600CF71B4 /* UIWindow+ELNUtils.m */; };
 		111D9F941C85F46700CF71B4 /* ELNUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111D9F221C85F17600CF71B4 /* ELNUtils.framework */; };
 		111D9F9E1C85F47500CF71B4 /* UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F9C1C85F47500CF71B4 /* UnitTest.m */; };
+		111D9FA01C85F52200CF71B4 /* Default.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 111D9F9F1C85F52200CF71B4 /* Default.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +117,7 @@
 		111D9F8F1C85F46700CF71B4 /* UnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		111D9F9B1C85F47500CF71B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		111D9F9C1C85F47500CF71B4 /* UnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitTest.m; sourceTree = "<group>"; };
+		111D9F9F1C85F52200CF71B4 /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		111D9F881C85F1CE00CF71B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				111D9F9F1C85F52200CF71B4 /* Default.xcconfig */,
 				111D9F321C85F1C600CF71B4 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -352,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111D9FA01C85F52200CF71B4 /* Default.xcconfig in Resources */,
 				111D9F5F1C85F1C600CF71B4 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +419,7 @@
 /* Begin XCBuildConfiguration section */
 		111D9F281C85F17600CF71B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111D9F9F1C85F52200CF71B4 /* Default.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -463,6 +468,7 @@
 		};
 		111D9F291C85F17600CF71B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111D9F9F1C85F52200CF71B4 /* Default.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
