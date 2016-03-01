@@ -54,12 +54,3 @@
 }
 
 @end
-
-
-@implementation NSString (ELNMD5)
-
-- (NSString *)eln_MD5 {
-    return [[self dataUsingEncoding:NSUTF8StringEncoding] eln_MD5];
-}
-
-@end

@@ -34,11 +34,3 @@
 + (NSString *)eln_localizedStringWithFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(1,2);
 
 @end
-
-
-@interface NSString (ELNMD5)
-
-/// Returns MD5 hash from UTF8 string.
-- (NSString *)eln_MD5;
-
-@end
