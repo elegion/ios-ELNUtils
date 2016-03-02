@@ -8,7 +8,7 @@
 
 #import "UITableViewCell+ELNUtils.h"
 
-UIEdgeInsets UITableViewCellDefaultSeparatorInsets() {
+UIEdgeInsets ELNTableViewCellDefaultSeparatorInsets() {
     if ([UIScreen mainScreen].bounds.size.width >= 414) {
         return UIEdgeInsetsMake(0, 20, 0, 0);
     } else {

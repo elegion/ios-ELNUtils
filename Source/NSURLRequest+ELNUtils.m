@@ -13,7 +13,7 @@ static NSString *ELNStringByAddingSlashes(NSString *string) {
     return string;
 }
 
-@implementation NSURLRequest (ELNHelpers)
+@implementation NSURLRequest (ELNUtils)
 
 - (NSString *)eln_CURL {
     NSMutableArray *args = [NSMutableArray new];
