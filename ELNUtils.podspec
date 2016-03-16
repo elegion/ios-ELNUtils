@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.summary      = "e-Legion set of utility things for more comfortable everything."
   s.authors		   = "."
-  s.license		   = "."
+  s.license		   = "MIT"
   s.homepage     = "."
 
 end
