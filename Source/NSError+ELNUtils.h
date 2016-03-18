@@ -12,4 +12,8 @@
 
 @property (nonatomic, readonly) BOOL eln_isNetworkError;
 
+- (BOOL)eln_isNetworkCancelledError;
+
+- (BOOL)eln_matchesDomain:(NSString *)domain codes:(NSArray<NSNumber *> *)codes;
+
 @end
