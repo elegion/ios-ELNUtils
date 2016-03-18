@@ -76,8 +76,8 @@
             completion();
         }
     } else {
-        __weak typeof(self) weakSelf = self;
-        __weak typeof(viewController) weakViewController = viewController;
+        __weak __typeof__(self) weakSelf = self;
+        __weak __typeof__(viewController) weakViewController = viewController;
         [viewController dismissViewControllerAnimated:NO completion:^{
             [weakSelf eln_dismissPresentedViewControllersForViewController:weakViewController completion:completion];
         }];

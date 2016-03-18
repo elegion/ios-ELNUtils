@@ -19,4 +19,11 @@
     }
 }
 
+- (CGFloat)CGFloatValue {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdouble-promotion"
+    return CGFLOAT_IS_DOUBLE ? self.doubleValue : self.floatValue;
+#pragma clang diagnostic pop
+}
+
 @end

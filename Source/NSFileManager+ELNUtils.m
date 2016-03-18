@@ -10,7 +10,7 @@
 
 @implementation NSFileManager (ELNUtils)
 
-- (NSURL *)eln_URLForDirectory:(NSSearchPathDirectory)directory inDomain:(NSSearchPathDomainMask)domain appendPathComponent:(NSString *)pathComponent create:(BOOL)create error:(NSError **)error {
+- (NSURL *)eln_URLForDirectory:(NSSearchPathDirectory)directory inDomain:(NSSearchPathDomainMask)domain appendPathComponent:(NSString *)pathComponent create:(BOOL)create error:(NSError *__autoreleasing *)error {
     NSURL *rootDirectory = [self URLForDirectory:directory inDomain:domain appropriateForURL:nil create:create error:error];
     
     NSURL *URL;

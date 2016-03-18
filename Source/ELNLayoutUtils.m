@@ -3,6 +3,8 @@
 //
 
 #import "ELNLayoutUtils.h"
+#import "math.h"
+#import "NSNumber+ELNUtils.h"
 
 @implementation UIView (ELNLayoutUtils)
 
@@ -108,20 +110,20 @@
 
 - (void)eln_centerInSuperview
 {
-    self.center = CGPointMake(floorf(self.superview.bounds.size.width/2),
-                              floorf(self.superview.bounds.size.height/2));
+    self.center = CGPointMake(eln_floor(self.superview.bounds.size.width/2),
+                              eln_floor(self.superview.bounds.size.height/2));
 }
 
 - (void)eln_centerInSuperviewHorizontally
 {
-    self.center = CGPointMake(floorf(self.superview.bounds.size.width/2),
+    self.center = CGPointMake(eln_floor(self.superview.bounds.size.width/2),
                               self.center.y);
 }
 
 - (void)eln_centerInSuperviewVertically
 {
     self.center = CGPointMake(self.center.x,
-                              floorf(self.superview.bounds.size.height/2));
+                              eln_floor(self.superview.bounds.size.height/2));
 }
 
 - (void)eln_setWidthToFitSubview:(UIView *)subview withXInset:(CGFloat)inset
@@ -177,8 +179,8 @@
 
 - (void)eln_setContentSizeToFitSubviewsWithInset:(CGSize)inset
 {
-    CGFloat maxX = [[self.subviews valueForKeyPath:@"@max.maxX"] floatValue];
-    CGFloat maxY = [[self.subviews valueForKeyPath:@"@max.maxY"] floatValue];
+    CGFloat maxX = [[self.subviews valueForKeyPath:@"@max.maxX"] CGFloatValue];
+    CGFloat maxY = [[self.subviews valueForKeyPath:@"@max.maxY"] CGFloatValue];
     self.contentSize = CGSizeMake(maxX + inset.width,
                                   maxY + inset.height);
 }

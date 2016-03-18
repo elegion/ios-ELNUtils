@@ -7,10 +7,13 @@
 //
 
 @import Foundation;
+@import CoreGraphics;
 
 @interface NSNumber (ELNUtils)
 
 /// Returns a number of digits before floating point.
 - (NSUInteger)eln_numberOfIntegerDigits;
+
+- (CGFloat)CGFloatValue;
 
 @end
