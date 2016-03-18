@@ -10,7 +10,7 @@
 
 @implementation NSError (ELNUtils)
 
-- (BOOL)eln_isNetworkError {
+- (BOOL)eln_isNetworkConnectionError {
     if ([self.domain isEqualToString:NSURLErrorDomain]) {
         switch (self.code) {
             case NSURLErrorTimedOut:
@@ -26,7 +26,7 @@
         }
     }
     NSError *underlyingError = self.userInfo[NSUnderlyingErrorKey];
-    return underlyingError.eln_isNetworkError;
+    return underlyingError.eln_isNetworkConnectionError;
 }
 
 - (BOOL)eln_isNetworkCancelledError {

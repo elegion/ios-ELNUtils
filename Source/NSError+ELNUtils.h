@@ -10,7 +10,7 @@
 
 @interface NSError (ELNUtils)
 
-@property (nonatomic, readonly) BOOL eln_isNetworkError;
+- (BOOL)eln_isNetworkConnectionError;
 
 - (BOOL)eln_isNetworkCancelledError;
 
