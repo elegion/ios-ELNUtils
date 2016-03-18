@@ -10,20 +10,7 @@
 
 @implementation NSError (ELNUtils)
 
-- (NSString *)eln_localizedDescription {
-    NSString *result;
-    if ([self eln_isNetworkError]) {
-        NSString *key = @"error.network.unavailable";
-        result = NSLocalizedString(key, nil);
-        if (![result isEqualToString:key]) {
-            return result;
-        }
-    }
-    
-    return self.localizedDescription;
-}
-
-- (BOOL)eln_isNetworkError {
+- (BOOL)eln_isNetworkConnectionError {
     if ([self.domain isEqualToString:NSURLErrorDomain]) {
         switch (self.code) {
             case NSURLErrorTimedOut:
@@ -39,16 +26,25 @@
         }
     }
     NSError *underlyingError = self.userInfo[NSUnderlyingErrorKey];
-    return underlyingError.eln_isNetworkError;
+    return underlyingError.eln_isNetworkConnectionError;
 }
 
-- (BOOL)eln_isNetworkOperationCancelledError {
-    return [self eln_matchesDomain:NSURLErrorDomain code:NSURLErrorCancelled]
-    || [self eln_matchesDomain:NSCocoaErrorDomain code:NSUserCancelledError];
+- (BOOL)eln_isNetworkCancelledError {
+    return [self eln_matchesDomain:NSURLErrorDomain codes:@[@(NSURLErrorCancelled)]];
 }
 
-- (BOOL)eln_matchesDomain:(NSString *)domain code:(NSInteger)code {
-    return [self.domain isEqualToString:domain] && self.code == code;
+- (BOOL)eln_matchesDomain:(NSString *)domain codes:(NSArray<NSNumber *> *)codes {
+    if (![self.domain isEqualToString:domain]) {
+        return NO;
+    }
+    
+    for (NSNumber *code in codes) {
+        if (self.code == code.integerValue) {
+            return YES;
+        }
+    }
+    
+    return NO;
 }
 
 @end

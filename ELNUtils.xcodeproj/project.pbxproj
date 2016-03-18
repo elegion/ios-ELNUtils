@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		111D9F5B1C85F1C600CF71B4 /* ELNCommonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 111D9F2E1C85F1C600CF71B4 /* ELNCommonUtils.h */; };
 		111D9F5C1C85F1C600CF71B4 /* ELNLayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 111D9F2F1C85F1C600CF71B4 /* ELNLayoutUtils.h */; };
 		111D9F5D1C85F1C600CF71B4 /* ELNLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F301C85F1C600CF71B4 /* ELNLayoutUtils.m */; };
 		111D9F5E1C85F1C600CF71B4 /* ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 111D9F311C85F1C600CF71B4 /* ELNUtils.h */; };
@@ -53,6 +52,7 @@
 		111D9F871C85F1C600CF71B4 /* UIWindow+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F5A1C85F1C600CF71B4 /* UIWindow+ELNUtils.m */; };
 		111D9F941C85F46700CF71B4 /* ELNUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111D9F221C85F17600CF71B4 /* ELNUtils.framework */; };
 		111D9F9E1C85F47500CF71B4 /* UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F9C1C85F47500CF71B4 /* UnitTest.m */; };
+		115AC1501C9C04B700144790 /* ELNRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 115AC14F1C9C04B700144790 /* ELNRuntime.h */; };
 		370C0D911C99C89200E49470 /* Default.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 370C0D8F1C99C89200E49470 /* Default.xcconfig */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +68,6 @@
 
 /* Begin PBXFileReference section */
 		111D9F221C85F17600CF71B4 /* ELNUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELNUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		111D9F2E1C85F1C600CF71B4 /* ELNCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNCommonUtils.h; sourceTree = "<group>"; };
 		111D9F2F1C85F1C600CF71B4 /* ELNLayoutUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNLayoutUtils.h; sourceTree = "<group>"; };
 		111D9F301C85F1C600CF71B4 /* ELNLayoutUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNLayoutUtils.m; sourceTree = "<group>"; };
 		111D9F311C85F1C600CF71B4 /* ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNUtils.h; sourceTree = "<group>"; };
@@ -115,6 +114,7 @@
 		111D9F8F1C85F46700CF71B4 /* UnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		111D9F9B1C85F47500CF71B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		111D9F9C1C85F47500CF71B4 /* UnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitTest.m; sourceTree = "<group>"; };
+		115AC14F1C9C04B700144790 /* ELNRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNRuntime.h; sourceTree = "<group>"; };
 		370C0D8F1C99C89200E49470 /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
 		370C0D901C99C89200E49470 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,7 +169,7 @@
 		111D9F891C85F1DD00CF71B4 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				111D9F2E1C85F1C600CF71B4 /* ELNCommonUtils.h */,
+				115AC14F1C9C04B700144790 /* ELNRuntime.h */,
 				111D9F2F1C85F1C600CF71B4 /* ELNLayoutUtils.h */,
 				111D9F301C85F1C600CF71B4 /* ELNLayoutUtils.m */,
 				111D9F311C85F1C600CF71B4 /* ELNUtils.h */,
@@ -262,10 +262,10 @@
 				111D9F5C1C85F1C600CF71B4 /* ELNLayoutUtils.h in Headers */,
 				111D9F7C1C85F1C600CF71B4 /* UIResponder+ELNUtils.h in Headers */,
 				111D9F801C85F1C600CF71B4 /* UITableViewCell+ELNUtils.h in Headers */,
+				115AC1501C9C04B700144790 /* ELNRuntime.h in Headers */,
 				111D9F6E1C85F1C600CF71B4 /* NSString+ELNUtils.h in Headers */,
 				111D9F781C85F1C600CF71B4 /* UIImage+ELNUtils.h in Headers */,
 				111D9F6C1C85F1C600CF71B4 /* NSSortDescriptor+ELNUtils.h in Headers */,
-				111D9F5B1C85F1C600CF71B4 /* ELNCommonUtils.h in Headers */,
 				111D9F601C85F1C600CF71B4 /* NSArray+ELNUtils.h in Headers */,
 				111D9F7E1C85F1C600CF71B4 /* UITableView+ELNUtils.h in Headers */,
 				111D9F641C85F1C600CF71B4 /* NSError+ELNUtils.h in Headers */,

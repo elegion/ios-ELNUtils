@@ -10,12 +10,10 @@
 
 @interface NSError (ELNUtils)
 
-/// Returns localized description by "key error.network.unavailable" for network errors and simple description for others.
-@property (nonatomic, readonly) NSString *eln_localizedDescription;
+- (BOOL)eln_isNetworkConnectionError;
 
-@property (nonatomic, readonly) BOOL eln_isNetworkError;
-@property (nonatomic, readonly) BOOL eln_isNetworkOperationCancelledError;
+- (BOOL)eln_isNetworkCancelledError;
 
-- (BOOL)eln_matchesDomain:(NSString *)domain code:(NSInteger)code;
+- (BOOL)eln_matchesDomain:(NSString *)domain codes:(NSArray<NSNumber *> *)codes;
 
 @end

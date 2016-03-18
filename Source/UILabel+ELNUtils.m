@@ -7,31 +7,13 @@
 //
 
 #import "UILabel+ELNUtils.h"
+#import "NSString+ELNUtils.h"
 
 @implementation UILabel (ELNUtils)
 
 - (CGSize)eln_sizeThatFits:(CGSize)size {
     if (self.text != nil) {
-        NSMutableDictionary *attributes = [NSMutableDictionary new];
-        
-        // font
-        if (self.font) {
-            attributes[NSFontAttributeName] = self.font;
-        }
-        
-        // linebreak mode
-        NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle defaultParagraphStyle] mutableCopy];
-        paragraphStyle.lineBreakMode = self.lineBreakMode;
-        attributes[NSParagraphStyleAttributeName] = paragraphStyle;
-        
-        // options
-        NSStringDrawingOptions options = self.numberOfLines != 1 ? NSStringDrawingUsesLineFragmentOrigin : NSStringDrawingTruncatesLastVisibleLine;
-        
-        CGRect rect = [self.text boundingRectWithSize:size options:options attributes:attributes context:nil];
-        rect.size.width =  ceil(rect.size.width);
-        rect.size.height =  ceil(rect.size.height);
-
-        return rect.size;
+        return [self.text eln_boundingRectWithSize:size font:self.font lineBreakMode:self.lineBreakMode numberOfLines:self.numberOfLines].size;
     } else {
         return [super sizeThatFits:size];
     }

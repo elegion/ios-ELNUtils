@@ -41,16 +41,14 @@
     return view == self ? nil : view;
 }
 
-@end
++ (instancetype)eln_viewFromNibInBundle:(NSBundle *)bundle {
+    return [self eln_viewFromNibInBundle:bundle owner:nil options:nil];
+}
 
-
-@implementation UIView (ELNNibLoading)
-
-+ (instancetype)eln_loadFromNib {
-    UINib *nib = [UINib nibWithNibName:NSStringFromClass(self) bundle:nil];
-    NSAssert(nib != nil, @"Nib named %@ not found", self);
-    UIView *view = [nib instantiateWithOwner:nil options:nil].firstObject;
-    NSAssert([view isMemberOfClass:self], @"Couldn't load proper view from nib (%@)", self);
++ (instancetype)eln_viewFromNibInBundle:(NSBundle *)bundle owner:(id)owner options:(NSDictionary *)options {
+    bundle = bundle ?: [NSBundle mainBundle];
+    UIView *view = [bundle loadNibNamed:NSStringFromClass(self) owner:owner options:options].firstObject;
+    NSAssert([view isMemberOfClass:self], @"Couldn't load view from nib (%@)", self);
     return view;
 }
 

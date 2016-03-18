@@ -8,17 +8,18 @@
 
 @import UIKit;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UIView (ELNUtils)
 
 - (void)eln_wobble;
 
 - (__kindof UIView *)eln_superviewWithClass:(Class)superviewClass;
 
-@end
++ (instancetype)eln_viewFromNibInBundle:(NSBundle * _Nullable)bundle owner:(id _Nullable)owner options:(NSDictionary * _Nullable)options;
 
-
-@interface UIView (ELNNibLoading)
-
-+ (instancetype)eln_loadFromNib;
++ (instancetype)eln_viewFromNibInBundle:(NSBundle * _Nullable)bundle;
 
 @end
+
+NS_ASSUME_NONNULL_END
