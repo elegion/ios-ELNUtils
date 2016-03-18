@@ -7,8 +7,11 @@
 //
 
 @import Foundation;
+@import CoreGraphics;
 
 @interface NSNumber (ELNUtils)
+
+@property (nonatomic, assign, readonly) CGFloat CGFloatValue;
 
 /// Returns a number of digits before floating point.
 - (NSUInteger)eln_numberOfIntegerDigits;

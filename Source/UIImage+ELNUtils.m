@@ -14,7 +14,7 @@
 {
     UIGraphicsBeginImageContextWithOptions(size, NO, 0);
     CGContextRef context = UIGraphicsGetCurrentContext();
-    CGRect drawingRect = CGRectMake(0.f, 0.f, size.width, size.height);
+    CGRect drawingRect = CGRectMake(0, 0, size.width, size.height);
 
     if (drawing) {
         drawing(drawingRect, context);
@@ -27,7 +27,7 @@
 
 + (UIImage *)eln_imageWithColor:(UIColor *)color
 {
-    return [self eln_imageWithSize:CGSizeMake(1.f, 1.f) drawingBlock:^(CGRect rect, CGContextRef context) {
+    return [self eln_imageWithSize:CGSizeMake(1, 1) drawingBlock:^(CGRect rect, CGContextRef context) {
         [color setFill];
         [[UIBezierPath bezierPathWithRect:rect] fill];
     }];
