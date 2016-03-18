@@ -11,29 +11,22 @@
 @implementation NSError (ELNUtils)
 
 - (BOOL)eln_isNetworkError {
-    if (![self.domain isEqualToString:NSURLErrorDomain]) {
-        return NO;
+    if ([self.domain isEqualToString:NSURLErrorDomain]) {
+        switch (self.code) {
+            case NSURLErrorTimedOut:
+            case NSURLErrorCannotFindHost:
+            case NSURLErrorCannotConnectToHost:
+            case NSURLErrorNetworkConnectionLost:
+            case NSURLErrorDNSLookupFailed:
+            case NSURLErrorNotConnectedToInternet:
+            case NSURLErrorInternationalRoamingOff:
+            case NSURLErrorCallIsActive:
+            case NSURLErrorDataNotAllowed:
+                return YES;
+        }
     }
-    
     NSError *underlyingError = self.userInfo[NSUnderlyingErrorKey];
-    if ([underlyingError eln_isNetworkError]) {
-        return YES;
-    }
-    
-    switch (self.code) {
-        case NSURLErrorTimedOut:
-        case NSURLErrorCannotFindHost:
-        case NSURLErrorCannotConnectToHost:
-        case NSURLErrorNetworkConnectionLost:
-        case NSURLErrorDNSLookupFailed:
-        case NSURLErrorNotConnectedToInternet:
-        case NSURLErrorInternationalRoamingOff:
-        case NSURLErrorCallIsActive:
-        case NSURLErrorDataNotAllowed:
-            return YES;
-        default:
-            return NO;
-    }
+    return underlyingError.eln_isNetworkError;
 }
 
 @end
