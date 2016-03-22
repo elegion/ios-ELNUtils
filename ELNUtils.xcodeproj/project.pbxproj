@@ -53,6 +53,8 @@
 		111D9F941C85F46700CF71B4 /* ELNUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111D9F221C85F17600CF71B4 /* ELNUtils.framework */; };
 		111D9F9E1C85F47500CF71B4 /* UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F9C1C85F47500CF71B4 /* UnitTest.m */; };
 		115AC1501C9C04B700144790 /* ELNRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 115AC14F1C9C04B700144790 /* ELNRuntime.h */; };
+		118E9F3F1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 118E9F3D1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.h */; };
+		118E9F401CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 118E9F3E1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m */; };
 		370C0D911C99C89200E49470 /* Default.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 370C0D8F1C99C89200E49470 /* Default.xcconfig */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +118,8 @@
 		111D9F9C1C85F47500CF71B4 /* UnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitTest.m; sourceTree = "<group>"; };
 		115AC14F1C9C04B700144790 /* ELNRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNRuntime.h; sourceTree = "<group>"; };
 		115AC1531C9C121000144790 /* math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = math.h; sourceTree = "<group>"; };
+		118E9F3D1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ELNUtils.h"; sourceTree = "<group>"; };
+		118E9F3E1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ELNUtils.m"; sourceTree = "<group>"; };
 		370C0D8F1C99C89200E49470 /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
 		370C0D901C99C89200E49470 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,12 +175,14 @@
 		111D9F891C85F1DD00CF71B4 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				115AC14F1C9C04B700144790 /* ELNRuntime.h */,
 				111D9F2F1C85F1C600CF71B4 /* ELNLayoutUtils.h */,
 				111D9F301C85F1C600CF71B4 /* ELNLayoutUtils.m */,
+				115AC14F1C9C04B700144790 /* ELNRuntime.h */,
 				111D9F311C85F1C600CF71B4 /* ELNUtils.h */,
 				111D9F331C85F1C600CF71B4 /* NSArray+ELNUtils.h */,
 				111D9F341C85F1C600CF71B4 /* NSArray+ELNUtils.m */,
+				118E9F3D1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.h */,
+				118E9F3E1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m */,
 				111D9F351C85F1C600CF71B4 /* NSData+ELNUtils.h */,
 				111D9F361C85F1C600CF71B4 /* NSData+ELNUtils.m */,
 				111D9F371C85F1C600CF71B4 /* NSError+ELNUtils.h */,
@@ -282,6 +288,7 @@
 				111D9F801C85F1C600CF71B4 /* UITableViewCell+ELNUtils.h in Headers */,
 				115AC1501C9C04B700144790 /* ELNRuntime.h in Headers */,
 				111D9F6E1C85F1C600CF71B4 /* NSString+ELNUtils.h in Headers */,
+				118E9F3F1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.h in Headers */,
 				111D9F781C85F1C600CF71B4 /* UIImage+ELNUtils.h in Headers */,
 				111D9F6C1C85F1C600CF71B4 /* NSSortDescriptor+ELNUtils.h in Headers */,
 				111D9F601C85F1C600CF71B4 /* NSArray+ELNUtils.h in Headers */,
@@ -408,6 +415,7 @@
 				111D9F791C85F1C600CF71B4 /* UIImage+ELNUtils.m in Sources */,
 				111D9F811C85F1C600CF71B4 /* UITableViewCell+ELNUtils.m in Sources */,
 				111D9F611C85F1C600CF71B4 /* NSArray+ELNUtils.m in Sources */,
+				118E9F401CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m in Sources */,
 				111D9F711C85F1C600CF71B4 /* NSURLRequest+ELNUtils.m in Sources */,
 				111D9F7F1C85F1C600CF71B4 /* UITableView+ELNUtils.m in Sources */,
 				111D9F5D1C85F1C600CF71B4 /* ELNLayoutUtils.m in Sources */,
