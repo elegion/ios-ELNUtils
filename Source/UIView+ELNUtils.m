@@ -23,7 +23,7 @@
     // fr + amplitude * sinf(M_PI_2 * t * frequency) * (1 - t)
     // fr + amplitude * (sinf(M_PI_2 * t * frequency) / expf(M_PI_2 * t))
     
-    for(CGFloat t = 0, fr = [[self.layer valueForKeyPath:@"position.x"] CGFloatValue]; t <= 1; t+= .01)
+    for(CGFloat t = 0, fr = [[self.layer valueForKeyPath:@"position.x"] eln_CGFloatValue]; t <= 1; t+= .01)
         [values addObject:@(fr + amplitude * (eln_sin((CGFloat)M_PI_2 * t * frequency) / eln_exp((CGFloat)M_PI_2 * t)))];
     
     [animation setValues:values];

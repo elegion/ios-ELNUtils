@@ -179,8 +179,8 @@
 
 - (void)eln_setContentSizeToFitSubviewsWithInset:(CGSize)inset
 {
-    CGFloat maxX = [[self.subviews valueForKeyPath:@"@max.maxX"] CGFloatValue];
-    CGFloat maxY = [[self.subviews valueForKeyPath:@"@max.maxY"] CGFloatValue];
+    CGFloat maxX = [[self.subviews valueForKeyPath:@"@max.maxX"] eln_CGFloatValue];
+    CGFloat maxY = [[self.subviews valueForKeyPath:@"@max.maxY"] eln_CGFloatValue];
     self.contentSize = CGSizeMake(maxX + inset.width,
                                   maxY + inset.height);
 }

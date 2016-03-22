@@ -11,7 +11,7 @@
 
 @interface NSNumber (ELNUtils)
 
-@property (nonatomic, assign, readonly) CGFloat CGFloatValue;
+@property (nonatomic, assign, readonly) CGFloat eln_CGFloatValue;
 
 /// Returns a number of digits before floating point.
 - (NSUInteger)eln_numberOfIntegerDigits;
