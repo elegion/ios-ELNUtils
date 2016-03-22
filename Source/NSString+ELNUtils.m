@@ -8,6 +8,7 @@
 
 #import "NSString+ELNUtils.h"
 #import "NSLocale+ELNUtils.h"
+#import "math.h"
 
 @implementation NSString (ELNUtils)
 
@@ -64,8 +65,8 @@
     NSStringDrawingOptions options = numberOfLines != 1 ? NSStringDrawingUsesLineFragmentOrigin : NSStringDrawingTruncatesLastVisibleLine;
     
     CGRect rect = [self boundingRectWithSize:size options:options attributes:attributes context:nil];
-    rect.size.width =  ceil(rect.size.width);
-    rect.size.height =  ceil(rect.size.height);
+    rect.size.width =  eln_ceil(rect.size.width);
+    rect.size.height =  eln_ceil(rect.size.height);
     
     return rect;
 }

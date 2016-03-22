@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)eln_wobble;
 
-- (__kindof UIView *)eln_superviewWithClass:(Class)superviewClass;
+- (nullable __kindof UIView *)eln_superviewWithClass:(Class)superviewClass;
 
 + (instancetype)eln_viewFromNibInBundle:(NSBundle * _Nullable)bundle owner:(id _Nullable)owner options:(NSDictionary * _Nullable)options;
 
