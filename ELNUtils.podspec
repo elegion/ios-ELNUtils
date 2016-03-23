@@ -7,6 +7,8 @@ Pod::Spec.new do |s|
   s.source_files = "Source"
   s.requires_arc = true
   s.summary      = "e-Legion set of utility things for more comfortable everything."
+  s.authors      = "."
+  s.license      = "MIT"
   s.homepage     = "https://github.com/elegion/ios-ELNUtils"
 
 end
