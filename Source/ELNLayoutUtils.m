@@ -3,7 +3,7 @@
 //
 
 #import "ELNLayoutUtils.h"
-#import "math.h"
+#import "ELNMath.h"
 #import "NSNumber+ELNUtils.h"
 
 @implementation UIView (ELNLayoutUtils)

@@ -8,7 +8,7 @@
 
 #import "UIView+ELNUtils.h"
 #import "NSNumber+ELNUtils.h"
-#import "math.h"
+#import "ELNMath.h"
 
 @implementation UIView (ELNUtils)
 

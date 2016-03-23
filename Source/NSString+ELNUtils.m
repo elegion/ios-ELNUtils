@@ -8,7 +8,7 @@
 
 #import "NSString+ELNUtils.h"
 #import "NSLocale+ELNUtils.h"
-#import "math.h"
+#import "ELNMath.h"
 
 @implementation NSString (ELNUtils)
 
