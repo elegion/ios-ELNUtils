@@ -1,5 +1,5 @@
 PODS:
-  - ELNUtils (0.3.0)
+  - ELNUtils (0.3.2)
 
 DEPENDENCIES:
   - ELNUtils (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ELNUtils: 57c45c790dc4055bd290c44c2c865602bc0c767f
+  ELNUtils: 8ebefc795bffdd5235015b8deb559fb7adbf1b73
 
 COCOAPODS: 0.39.0

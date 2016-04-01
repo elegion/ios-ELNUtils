@@ -9,57 +9,57 @@
 /* Begin PBXBuildFile section */
 		05E28E6A4B862AE5F3F6E2ED5AA6BF11 /* Pods-elnutilsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC86CD03CED1E1E19AB34AC5FFAAB76 /* Pods-elnutilsTests-dummy.m */; };
 		095F528FDE43A34C4883BEE3DFF315CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		0EB045877D32C2F4FA3AA9B3314531B2 /* NSNumber+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA40C1F2AB6DB37624880CA02B63AC /* NSNumber+ELNUtils.m */; };
+		0EB045877D32C2F4FA3AA9B3314531B2 /* NSNumber+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4A518EAF775BF73FA10DF84D295776 /* NSNumber+ELNUtils.m */; };
 		1347B55230719A4A564B010F8D1CC94E /* Pods-elnutils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B5FFCA009815829D008E47499D490D /* Pods-elnutils-dummy.m */; };
-		14238A2D32357671F34F63C12A18C220 /* UITableView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C6347625C1C645A2867B228302067E /* UITableView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1972E4F183D7115A0F185E6A534326D4 /* UIFont+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EFED12C2813011ADCD0B789108CAB6 /* UIFont+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F477ED61C1D095710A223C8D2A0730E /* NSError+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EC8F7552183F5CF160F9AD023C246E /* NSError+ELNUtils.m */; };
-		233E25655E1AA4698905C2A3259FF2F7 /* ELNRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2B9D3488526D5DDCB7E9F728F9A12B /* ELNRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2489066AA2F1ACF1B359EE5D1EE0A870 /* NSData+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9536918BB6A1D76051FF4D1F775450F9 /* NSData+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24ADD7CC318A93040E34D0DBE721800B /* NSBundle+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C46C0A04E8B60832AA994A8F7666878C /* NSBundle+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29038AA539FD927DE9A2CB5015008CA8 /* NSLocale+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B44047E6784942F0489A6BB4AA2780BA /* NSLocale+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CE1B0EFA2A1D5CCFA7D6062F92C4B46 /* UILabel+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0889B423463857A2218A4CD3CCA2A9A9 /* UILabel+ELNUtils.m */; };
-		2D2F13D1F0A1EE8AAC6368292BD32B69 /* UILabel+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DF2F8B7B9AA5030042C987585D1242 /* UILabel+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EBD3BC88E8AEB5A637AEA52227F84EE /* UITableViewCell+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B28ECA52329D595CC360EB9ED6C611C /* UITableViewCell+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		325BC89042881BB656778B41C8BE4347 /* NSArray+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE8F525ECA0C2506E4ED07A70C6860B /* NSArray+ELNUtils.m */; };
-		343FC5496D2470A105D9D1A939400286 /* NSLocale+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8015297A39784CCAFCB2474E98ED429F /* NSLocale+ELNUtils.m */; };
-		38173F86771922E80BB6240F23EF2EA8 /* UIResponder+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2655A795A2C182A58D8C3A317FF904 /* UIResponder+ELNUtils.m */; };
-		3A6AFD248BE325004B405E0A8AE0DA1D /* UICollectionView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5820E3DD919EC23358251DA79CC9104A /* UICollectionView+ELNUtils.m */; };
-		4003BBABA04F70A0C4E6195AD37B679A /* UIFont+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 513CA53EA4FF33F0B3EDE10C203F012B /* UIFont+ELNUtils.m */; };
-		466E8F2FA36A1A252A0DC53418A0934C /* UIColor+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF87CA527235490816AF0956EBFED1 /* UIColor+ELNUtils.m */; };
-		47397671544CB111D202F85915757308 /* UIImage+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1231B82F4C2E348C6235544DB6171112 /* UIImage+ELNUtils.m */; };
-		5642B3AB708481F156B32075E538A66B /* NSArray+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6588178E4A544A4B61FBE3F284162579 /* NSArray+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E594106A7C03202B7A997479B733914 /* ELNMath.h in Headers */ = {isa = PBXBuildFile; fileRef = CD98DD03CC04397CFD11D14716F2B8E3 /* ELNMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FFAEE225032E7A5AB517469295D3AF9 /* UIColor+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 61FA13EEA23F547A9DF2300D37FE0165 /* UIColor+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EEA0D6200FF1ACEEFB864D72C9466F1 /* NSNumber+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 46654D6F8B40413280A84166C0B2CEB6 /* NSNumber+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70C25006073020C8EA955E1184BC02AE /* UICollectionView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEE936BEFE8F5023E87E8AE292F91DC /* UICollectionView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71476BDBB22C8229D4A17AC7FBFF9730 /* NSData+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D5704C3989E0AE2475A84A28597D3C4C /* NSData+ELNUtils.m */; };
-		7605D160A687456FC08C19613E648846 /* NSURLRequest+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 64138C3B71A0D014543FAE4A9E75AE35 /* NSURLRequest+ELNUtils.m */; };
-		7FA32FBB9B83B74B8FCC0AC8F9D58A80 /* NSError+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8CA2FB25BB0AD8951903CE41C8DC64 /* NSError+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		828FA2B6EEBC68DBC9BCCBA8C5BEB060 /* UIViewController+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E324A769F553BBD334775FEE5453C9AC /* UIViewController+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85FD4FBB4EA09F2B037E64280E6AB17F /* UIViewController+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0AB6FCED47FDD9E46D84F80167BAE0 /* UIViewController+ELNUtils.m */; };
-		899215C0DDB471914E4C62C68B05257C /* UITableView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C487E103E22AD0491596B7756E875456 /* UITableView+ELNUtils.m */; };
+		14238A2D32357671F34F63C12A18C220 /* UITableView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B062BC1AC186C7B18C3C96BF5E652F11 /* UITableView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1972E4F183D7115A0F185E6A534326D4 /* UIFont+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB2C1776B7732EF1B2E8D3B06A721CA /* UIFont+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F477ED61C1D095710A223C8D2A0730E /* NSError+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BFD9B8EE49A0ED7C1D922F38685691 /* NSError+ELNUtils.m */; };
+		233E25655E1AA4698905C2A3259FF2F7 /* ELNRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = A042F17DCAA6A87392BCB75B9FA1E0E3 /* ELNRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2489066AA2F1ACF1B359EE5D1EE0A870 /* NSData+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 86288FC14FA5C85FD3F3518111500E94 /* NSData+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24ADD7CC318A93040E34D0DBE721800B /* NSBundle+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 510F50E8D5954C09EE98998CDAAD8B68 /* NSBundle+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29038AA539FD927DE9A2CB5015008CA8 /* NSLocale+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2FB692D8EC8809C5563C8E0B1B26EE /* NSLocale+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CE1B0EFA2A1D5CCFA7D6062F92C4B46 /* UILabel+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B3A3A3F06C46EAB4D982DEEF62F6CE /* UILabel+ELNUtils.m */; };
+		2D2F13D1F0A1EE8AAC6368292BD32B69 /* UILabel+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B0FC30CED40897B94CE0B266537A6E /* UILabel+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EBD3BC88E8AEB5A637AEA52227F84EE /* UITableViewCell+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6893CA3113C61E225A8482273E303928 /* UITableViewCell+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		325BC89042881BB656778B41C8BE4347 /* NSArray+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5802A1FE7BBFA9B5757E2A8DD9E8AD75 /* NSArray+ELNUtils.m */; };
+		343FC5496D2470A105D9D1A939400286 /* NSLocale+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B45AC3D92726B19D040E7B70ADF541 /* NSLocale+ELNUtils.m */; };
+		38173F86771922E80BB6240F23EF2EA8 /* UIResponder+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88418AEE6C3DB47CA7F0A154DEA139 /* UIResponder+ELNUtils.m */; };
+		3A6AFD248BE325004B405E0A8AE0DA1D /* UICollectionView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E831222877BB932405639A3B035AF4AD /* UICollectionView+ELNUtils.m */; };
+		4003BBABA04F70A0C4E6195AD37B679A /* UIFont+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EE12207A1B9327FD8E5B691CCCE992C0 /* UIFont+ELNUtils.m */; };
+		466E8F2FA36A1A252A0DC53418A0934C /* UIColor+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A7BE124EC0F7E410C4ADA8C408889 /* UIColor+ELNUtils.m */; };
+		47397671544CB111D202F85915757308 /* UIImage+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D214BD6A35533BA51787946AD095078 /* UIImage+ELNUtils.m */; };
+		5642B3AB708481F156B32075E538A66B /* NSArray+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B588D56F035C73A7EBADD15C7A449A /* NSArray+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E594106A7C03202B7A997479B733914 /* ELNMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 4512A0039F420B8E8908A569EB44F791 /* ELNMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FFAEE225032E7A5AB517469295D3AF9 /* UIColor+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F239E6FB862028D398B4E19EE5881AC /* UIColor+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EEA0D6200FF1ACEEFB864D72C9466F1 /* NSNumber+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 216C69CDB54BA8AF80A54D69C88C2078 /* NSNumber+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70C25006073020C8EA955E1184BC02AE /* UICollectionView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F13CE3BCCC08C9D2747E635F071AA19C /* UICollectionView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71476BDBB22C8229D4A17AC7FBFF9730 /* NSData+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F34D245FD908D5A0CC78404C5EBE3F /* NSData+ELNUtils.m */; };
+		7605D160A687456FC08C19613E648846 /* NSURLRequest+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E68D234012AC90D812D1AFE25B525F0B /* NSURLRequest+ELNUtils.m */; };
+		7FA32FBB9B83B74B8FCC0AC8F9D58A80 /* NSError+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F60296A531385D216AA86F7C164086C /* NSError+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		828FA2B6EEBC68DBC9BCCBA8C5BEB060 /* UIViewController+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C86F70B33D9457A9095D8706CA95C89 /* UIViewController+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85FD4FBB4EA09F2B037E64280E6AB17F /* UIViewController+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E0650213058687335722FF1343FD3717 /* UIViewController+ELNUtils.m */; };
+		899215C0DDB471914E4C62C68B05257C /* UITableView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F9516F70B7E455BF7E2F7B0FB162B63C /* UITableView+ELNUtils.m */; };
 		92E3F58A93D4EF6ACED26EED5EA7F09A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		9B24917C1A5A7F79015814E5ED8115C0 /* UIView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A629136D7E3344C1D6682C9EA5625A0 /* UIView+ELNUtils.m */; };
-		ADEA1F1E41A97B6BEA55DF5338ED9417 /* UIWindow+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C8EDFFA36038001FC018D25372B01 /* UIWindow+ELNUtils.m */; };
-		B0B93CF78AA88582180B3CAA4A548A41 /* ELNLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F472E31299E294EC6A7D7B318BCDC48 /* ELNLayoutUtils.m */; };
-		B87676B29197F164563A44E952ED2474 /* UIView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5159E3FE795EFB981EEEB7FAA83FE16D /* UIView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B98B7627FDAF3F774901AF7EFF6E8137 /* NSFileManager+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DA49AAE4A77CF88C80CB43504ACE97 /* NSFileManager+ELNUtils.m */; };
-		C1948175AEC9D53D00B9726F7FDFAE1D /* NSSortDescriptor+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1788BF8EA9B80D95939AF2935EB4E23 /* NSSortDescriptor+ELNUtils.m */; };
-		CD5E913A0B4843F9266432FACBAA6AF9 /* NSBundle+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AC4805FE01BB4CA094FC9AB0633D0C /* NSBundle+ELNUtils.m */; };
-		D22A8277268BE787F3B780AC69D37B09 /* NSString+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F298382117FF908320695FB7ABD1AAF /* NSString+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D28AC635022649C221086D37FBB6649F /* UIWindow+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EB46096EF8E7A356FB6565666DD72FC6 /* UIWindow+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9B7C790A8DF622BCCA804775E6EA4E2 /* ELNLayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD5B07CBCD6E7EA93E2E355583DD090 /* ELNLayoutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBB6C47EF4C0BEDDDD850C04CDFC12BB /* UITableViewCell+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A30C50AFCCDC0F7BC2702A4598ECAF8 /* UITableViewCell+ELNUtils.m */; };
-		DD6BB680DD2B0251C6292EDF437DB780 /* NSString+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7BC870CF513D6156AB36A1FD3EB721 /* NSString+ELNUtils.m */; };
-		EAA1E31F45C11BDB353A557A613BDF65 /* UIResponder+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 32411EC0FB51AF4CA64EDEE99B02A52A /* UIResponder+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC328E7BE59B59DD71392F6DA9C6506D /* NSFileManager+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8E46487D0C33C5872E17F21DA7BBD2 /* NSFileManager+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE2E68960B2C63B013EE208296BFFAFC /* NSSortDescriptor+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 53412A052910D5AC8FFCE945E93498F0 /* NSSortDescriptor+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B24917C1A5A7F79015814E5ED8115C0 /* UIView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 894FF0C938596FF9D2F6747FC0990F36 /* UIView+ELNUtils.m */; };
+		ADEA1F1E41A97B6BEA55DF5338ED9417 /* UIWindow+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AFDB512E0A6B38D2C2CF675A98DB /* UIWindow+ELNUtils.m */; };
+		B0B93CF78AA88582180B3CAA4A548A41 /* ELNLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CD1D381222B537B139A047007DBB12 /* ELNLayoutUtils.m */; };
+		B87676B29197F164563A44E952ED2474 /* UIView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E27B62962C8498D59DD96E06C3C2442 /* UIView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98B7627FDAF3F774901AF7EFF6E8137 /* NSFileManager+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CA60B897E11F0E79ECD481995DC8F /* NSFileManager+ELNUtils.m */; };
+		C1948175AEC9D53D00B9726F7FDFAE1D /* NSSortDescriptor+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D1474F9A8266AC40249E064AE6383510 /* NSSortDescriptor+ELNUtils.m */; };
+		CD5E913A0B4843F9266432FACBAA6AF9 /* NSBundle+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D1A2D85B328DD59AFCBDB4B200FCEE /* NSBundle+ELNUtils.m */; };
+		D22A8277268BE787F3B780AC69D37B09 /* NSString+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 186E76C64F65CDF81DC3797D37695EAE /* NSString+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28AC635022649C221086D37FBB6649F /* UIWindow+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 98DEB58C2E8F85835383316DEBC27680 /* UIWindow+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B7C790A8DF622BCCA804775E6EA4E2 /* ELNLayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E322EE3649686200A835CCDB4B356432 /* ELNLayoutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBB6C47EF4C0BEDDDD850C04CDFC12BB /* UITableViewCell+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AB289CD1C92EE253DABC93E2C1EF9948 /* UITableViewCell+ELNUtils.m */; };
+		DD6BB680DD2B0251C6292EDF437DB780 /* NSString+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 645F4B0BDE9EE5A9A52AB8D2FA3383BA /* NSString+ELNUtils.m */; };
+		EAA1E31F45C11BDB353A557A613BDF65 /* UIResponder+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2241682B0E7D82AFD936D532E2E4A7 /* UIResponder+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC328E7BE59B59DD71392F6DA9C6506D /* NSFileManager+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DBE66A30BE750C08BE98EE513C9995 /* NSFileManager+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE2E68960B2C63B013EE208296BFFAFC /* NSSortDescriptor+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FE0FED833F43273FBF2D61C0F9D340 /* NSSortDescriptor+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE368ACA05573B501BE36AE61A88E16A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		EF96B4D6FD3CF9D9184D781320EC2957 /* NSURLRequest+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E250046CEF75C1B7998071816E80EEB0 /* NSURLRequest+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F69BD540E523BFFF0FCC55564F3CC3AA /* ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 57ED40B375DD858EF33AF2E43075A29B /* ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F74C30F58D1DC4E16AC9035EB6A64160 /* ELNUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AB57ABF71F99FDF6036DF977C8C7B3 /* ELNUtils-dummy.m */; };
-		F911603927527EBE83F0F1127153C45B /* UIImage+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E39ACA9A1C2C39BD829B20537999A0 /* UIImage+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF96B4D6FD3CF9D9184D781320EC2957 /* NSURLRequest+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB95DB0CBCCB7E0D6B83A1C96470A32 /* NSURLRequest+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F69BD540E523BFFF0FCC55564F3CC3AA /* ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C2DB8B7C1D9458177B6986606CD27D /* ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F74C30F58D1DC4E16AC9035EB6A64160 /* ELNUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D74F57ED0696EA92BBDF0E1307B164C /* ELNUtils-dummy.m */; };
+		F911603927527EBE83F0F1127153C45B /* UIImage+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C264E22B8236E9719E4772BF08B7921 /* UIImage+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,75 +80,75 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0889B423463857A2218A4CD3CCA2A9A9 /* UILabel+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ELNUtils.m"; sourceTree = "<group>"; };
+		03BFD9B8EE49A0ED7C1D922F38685691 /* NSError+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSError+ELNUtils.m"; sourceTree = "<group>"; };
 		0B45B8DA6E3962CCFE678568812D35FE /* libPods-elnutils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-elnutils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D66FE5107EE98FC86A713D9BF4F7230 /* Pods-elnutils-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-elnutils-frameworks.sh"; sourceTree = "<group>"; };
-		0F472E31299E294EC6A7D7B318BCDC48 /* ELNLayoutUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNLayoutUtils.m; sourceTree = "<group>"; };
-		1231B82F4C2E348C6235544DB6171112 /* UIImage+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ELNUtils.m"; sourceTree = "<group>"; };
-		18EC8F7552183F5CF160F9AD023C246E /* NSError+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSError+ELNUtils.m"; sourceTree = "<group>"; };
-		1D7BC870CF513D6156AB36A1FD3EB721 /* NSString+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELNUtils.m"; sourceTree = "<group>"; };
-		1F2655A795A2C182A58D8C3A317FF904 /* UIResponder+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+ELNUtils.m"; sourceTree = "<group>"; };
-		1FCF87CA527235490816AF0956EBFED1 /* UIColor+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ELNUtils.m"; sourceTree = "<group>"; };
-		2359D4DDBD4F1EDCEB49ED6F1704132E /* ELNUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNUtils-prefix.pch"; sourceTree = "<group>"; };
-		2A30C50AFCCDC0F7BC2702A4598ECAF8 /* UITableViewCell+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ELNUtils.m"; sourceTree = "<group>"; };
-		2B28ECA52329D595CC360EB9ED6C611C /* UITableViewCell+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ELNUtils.h"; sourceTree = "<group>"; };
-		2C2B9D3488526D5DDCB7E9F728F9A12B /* ELNRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNRuntime.h; sourceTree = "<group>"; };
+		186E76C64F65CDF81DC3797D37695EAE /* NSString+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ELNUtils.h"; sourceTree = "<group>"; };
+		216C69CDB54BA8AF80A54D69C88C2078 /* NSNumber+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+ELNUtils.h"; sourceTree = "<group>"; };
+		29C2DB8B7C1D9458177B6986606CD27D /* ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNUtils.h; sourceTree = "<group>"; };
+		2B2241682B0E7D82AFD936D532E2E4A7 /* UIResponder+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIResponder+ELNUtils.h"; sourceTree = "<group>"; };
 		2C72FF312F50173E89EF54C8CC06C721 /* Pods-elnutilsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-elnutilsTests.release.xcconfig"; sourceTree = "<group>"; };
 		30B60AF8F69E0B75B26C9E2461C00AC6 /* Pods-elnutilsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-elnutilsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		32411EC0FB51AF4CA64EDEE99B02A52A /* UIResponder+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIResponder+ELNUtils.h"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		43EFED12C2813011ADCD0B789108CAB6 /* UIFont+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+ELNUtils.h"; sourceTree = "<group>"; };
-		46654D6F8B40413280A84166C0B2CEB6 /* NSNumber+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+ELNUtils.h"; sourceTree = "<group>"; };
-		513CA53EA4FF33F0B3EDE10C203F012B /* UIFont+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ELNUtils.m"; sourceTree = "<group>"; };
-		5159E3FE795EFB981EEEB7FAA83FE16D /* UIView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ELNUtils.h"; sourceTree = "<group>"; };
-		53412A052910D5AC8FFCE945E93498F0 /* NSSortDescriptor+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSortDescriptor+ELNUtils.h"; sourceTree = "<group>"; };
+		3EB2C1776B7732EF1B2E8D3B06A721CA /* UIFont+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+ELNUtils.h"; sourceTree = "<group>"; };
+		43B45AC3D92726B19D040E7B70ADF541 /* NSLocale+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+ELNUtils.m"; sourceTree = "<group>"; };
+		44DBE66A30BE750C08BE98EE513C9995 /* NSFileManager+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+ELNUtils.h"; sourceTree = "<group>"; };
+		4512A0039F420B8E8908A569EB44F791 /* ELNMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNMath.h; sourceTree = "<group>"; };
+		510F50E8D5954C09EE98998CDAAD8B68 /* NSBundle+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ELNUtils.h"; sourceTree = "<group>"; };
+		52FE0FED833F43273FBF2D61C0F9D340 /* NSSortDescriptor+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSortDescriptor+ELNUtils.h"; sourceTree = "<group>"; };
 		55B453A5213E5CFD9AB4B7E846F218CB /* Pods-elnutils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-elnutils.release.xcconfig"; sourceTree = "<group>"; };
-		57ED40B375DD858EF33AF2E43075A29B /* ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNUtils.h; sourceTree = "<group>"; };
-		5820E3DD919EC23358251DA79CC9104A /* UICollectionView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+ELNUtils.m"; sourceTree = "<group>"; };
-		5A0AB6FCED47FDD9E46D84F80167BAE0 /* UIViewController+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ELNUtils.m"; sourceTree = "<group>"; };
-		61FA13EEA23F547A9DF2300D37FE0165 /* UIColor+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+ELNUtils.h"; sourceTree = "<group>"; };
-		64138C3B71A0D014543FAE4A9E75AE35 /* NSURLRequest+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+ELNUtils.m"; sourceTree = "<group>"; };
-		6588178E4A544A4B61FBE3F284162579 /* NSArray+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+ELNUtils.h"; sourceTree = "<group>"; };
+		55C078DCEFEB88E8312760A7EF312FBE /* ELNUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELNUtils.xcconfig; sourceTree = "<group>"; };
+		5802A1FE7BBFA9B5757E2A8DD9E8AD75 /* NSArray+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ELNUtils.m"; sourceTree = "<group>"; };
+		5C264E22B8236E9719E4772BF08B7921 /* UIImage+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ELNUtils.h"; sourceTree = "<group>"; };
+		5DCEFFDCC6C1F130CF01A999999CAB48 /* ELNUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNUtils-prefix.pch"; sourceTree = "<group>"; };
+		5F60296A531385D216AA86F7C164086C /* NSError+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+ELNUtils.h"; sourceTree = "<group>"; };
+		645F4B0BDE9EE5A9A52AB8D2FA3383BA /* NSString+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELNUtils.m"; sourceTree = "<group>"; };
+		66B588D56F035C73A7EBADD15C7A449A /* NSArray+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+ELNUtils.h"; sourceTree = "<group>"; };
+		6893CA3113C61E225A8482273E303928 /* UITableViewCell+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ELNUtils.h"; sourceTree = "<group>"; };
 		6D46117FFC9EC281D3D4546D57BA8C90 /* Pods-elnutils-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-elnutils-acknowledgements.markdown"; sourceTree = "<group>"; };
-		70134C3AB95C599AB5EEC1DE86641F9C /* ELNUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELNUtils.xcconfig; sourceTree = "<group>"; };
 		70A8A8ED8AF6D4EEC4ADC9DB6453B08F /* Pods-elnutilsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-elnutilsTests-frameworks.sh"; sourceTree = "<group>"; };
-		75EA40C1F2AB6DB37624880CA02B63AC /* NSNumber+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+ELNUtils.m"; sourceTree = "<group>"; };
-		7A629136D7E3344C1D6682C9EA5625A0 /* UIView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELNUtils.m"; sourceTree = "<group>"; };
-		8015297A39784CCAFCB2474E98ED429F /* NSLocale+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+ELNUtils.m"; sourceTree = "<group>"; };
+		70B0FC30CED40897B94CE0B266537A6E /* UILabel+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+ELNUtils.h"; sourceTree = "<group>"; };
+		7C86F70B33D9457A9095D8706CA95C89 /* UIViewController+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ELNUtils.h"; sourceTree = "<group>"; };
 		802773781A6BC8DDD035E77E8977B873 /* Pods-elnutils-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-elnutils-acknowledgements.plist"; sourceTree = "<group>"; };
+		80D1A2D85B328DD59AFCBDB4B200FCEE /* NSBundle+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ELNUtils.m"; sourceTree = "<group>"; };
 		85F18665ECA312F2B9E94F2F18E9A3F3 /* Pods-elnutilsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-elnutilsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86288FC14FA5C85FD3F3518111500E94 /* NSData+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+ELNUtils.h"; sourceTree = "<group>"; };
 		87B5FFCA009815829D008E47499D490D /* Pods-elnutils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-elnutils-dummy.m"; sourceTree = "<group>"; };
+		894FF0C938596FF9D2F6747FC0990F36 /* UIView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELNUtils.m"; sourceTree = "<group>"; };
 		8957280FB2FE3EB9A36421607FC1490A /* libPods-elnutilsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-elnutilsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2FB692D8EC8809C5563C8E0B1B26EE /* NSLocale+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLocale+ELNUtils.h"; sourceTree = "<group>"; };
+		8AB95DB0CBCCB7E0D6B83A1C96470A32 /* NSURLRequest+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+ELNUtils.h"; sourceTree = "<group>"; };
+		8D74F57ED0696EA92BBDF0E1307B164C /* ELNUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNUtils-dummy.m"; sourceTree = "<group>"; };
 		8EC86CD03CED1E1E19AB34AC5FFAAB76 /* Pods-elnutilsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-elnutilsTests-dummy.m"; sourceTree = "<group>"; };
-		8F298382117FF908320695FB7ABD1AAF /* NSString+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ELNUtils.h"; sourceTree = "<group>"; };
+		8F239E6FB862028D398B4E19EE5881AC /* UIColor+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+ELNUtils.h"; sourceTree = "<group>"; };
 		90C2BD35347D912DF6565F1A9A88C9A0 /* Pods-elnutilsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-elnutilsTests-resources.sh"; sourceTree = "<group>"; };
-		9536918BB6A1D76051FF4D1F775450F9 /* NSData+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+ELNUtils.h"; sourceTree = "<group>"; };
 		962E4750646511151BAAD76B94371298 /* Pods-elnutils-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-elnutils-resources.sh"; sourceTree = "<group>"; };
-		96DA49AAE4A77CF88C80CB43504ACE97 /* NSFileManager+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+ELNUtils.m"; sourceTree = "<group>"; };
-		98AB57ABF71F99FDF6036DF977C8C7B3 /* ELNUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNUtils-dummy.m"; sourceTree = "<group>"; };
-		9AEE936BEFE8F5023E87E8AE292F91DC /* UICollectionView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+ELNUtils.h"; sourceTree = "<group>"; };
-		A09C8EDFFA36038001FC018D25372B01 /* UIWindow+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+ELNUtils.m"; sourceTree = "<group>"; };
-		A1DF2F8B7B9AA5030042C987585D1242 /* UILabel+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+ELNUtils.h"; sourceTree = "<group>"; };
-		AD8CA2FB25BB0AD8951903CE41C8DC64 /* NSError+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+ELNUtils.h"; sourceTree = "<group>"; };
-		B44047E6784942F0489A6BB4AA2780BA /* NSLocale+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLocale+ELNUtils.h"; sourceTree = "<group>"; };
+		98DEB58C2E8F85835383316DEBC27680 /* UIWindow+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ELNUtils.h"; sourceTree = "<group>"; };
+		9D214BD6A35533BA51787946AD095078 /* UIImage+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ELNUtils.m"; sourceTree = "<group>"; };
+		9E27B62962C8498D59DD96E06C3C2442 /* UIView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ELNUtils.h"; sourceTree = "<group>"; };
+		A042F17DCAA6A87392BCB75B9FA1E0E3 /* ELNRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNRuntime.h; sourceTree = "<group>"; };
+		A9F34D245FD908D5A0CC78404C5EBE3F /* NSData+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+ELNUtils.m"; sourceTree = "<group>"; };
+		AB289CD1C92EE253DABC93E2C1EF9948 /* UITableViewCell+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ELNUtils.m"; sourceTree = "<group>"; };
+		B062BC1AC186C7B18C3C96BF5E652F11 /* UITableView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+ELNUtils.h"; sourceTree = "<group>"; };
+		BA4A518EAF775BF73FA10DF84D295776 /* NSNumber+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+ELNUtils.m"; sourceTree = "<group>"; };
+		BA4CA60B897E11F0E79ECD481995DC8F /* NSFileManager+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+ELNUtils.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BDD5B07CBCD6E7EA93E2E355583DD090 /* ELNLayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNLayoutUtils.h; sourceTree = "<group>"; };
-		C1788BF8EA9B80D95939AF2935EB4E23 /* NSSortDescriptor+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSortDescriptor+ELNUtils.m"; sourceTree = "<group>"; };
-		C3E39ACA9A1C2C39BD829B20537999A0 /* UIImage+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ELNUtils.h"; sourceTree = "<group>"; };
-		C46C0A04E8B60832AA994A8F7666878C /* NSBundle+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ELNUtils.h"; sourceTree = "<group>"; };
-		C487E103E22AD0491596B7756E875456 /* UITableView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ELNUtils.m"; sourceTree = "<group>"; };
-		C7AC4805FE01BB4CA094FC9AB0633D0C /* NSBundle+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ELNUtils.m"; sourceTree = "<group>"; };
-		CB8E46487D0C33C5872E17F21DA7BBD2 /* NSFileManager+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+ELNUtils.h"; sourceTree = "<group>"; };
-		CD98DD03CC04397CFD11D14716F2B8E3 /* ELNMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNMath.h; sourceTree = "<group>"; };
+		BA9A7BE124EC0F7E410C4ADA8C408889 /* UIColor+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ELNUtils.m"; sourceTree = "<group>"; };
+		BC88418AEE6C3DB47CA7F0A154DEA139 /* UIResponder+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+ELNUtils.m"; sourceTree = "<group>"; };
+		BEE1AFDB512E0A6B38D2C2CF675A98DB /* UIWindow+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+ELNUtils.m"; sourceTree = "<group>"; };
+		C3CD1D381222B537B139A047007DBB12 /* ELNLayoutUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNLayoutUtils.m; sourceTree = "<group>"; };
+		C4B3A3A3F06C46EAB4D982DEEF62F6CE /* UILabel+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ELNUtils.m"; sourceTree = "<group>"; };
 		CFF0608919EF7B9C4C19E138B77707B5 /* libELNUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libELNUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3C6347625C1C645A2867B228302067E /* UITableView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+ELNUtils.h"; sourceTree = "<group>"; };
-		D5704C3989E0AE2475A84A28597D3C4C /* NSData+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+ELNUtils.m"; sourceTree = "<group>"; };
-		DEE8F525ECA0C2506E4ED07A70C6860B /* NSArray+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ELNUtils.m"; sourceTree = "<group>"; };
-		E250046CEF75C1B7998071816E80EEB0 /* NSURLRequest+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+ELNUtils.h"; sourceTree = "<group>"; };
-		E324A769F553BBD334775FEE5453C9AC /* UIViewController+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ELNUtils.h"; sourceTree = "<group>"; };
+		D1474F9A8266AC40249E064AE6383510 /* NSSortDescriptor+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSortDescriptor+ELNUtils.m"; sourceTree = "<group>"; };
+		E0650213058687335722FF1343FD3717 /* UIViewController+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ELNUtils.m"; sourceTree = "<group>"; };
+		E322EE3649686200A835CCDB4B356432 /* ELNLayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNLayoutUtils.h; sourceTree = "<group>"; };
 		E3B0B95A9CE8FC354BA118A6A06A6B4C /* Pods-elnutils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-elnutils.debug.xcconfig"; sourceTree = "<group>"; };
-		EB46096EF8E7A356FB6565666DD72FC6 /* UIWindow+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ELNUtils.h"; sourceTree = "<group>"; };
+		E68D234012AC90D812D1AFE25B525F0B /* NSURLRequest+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+ELNUtils.m"; sourceTree = "<group>"; };
+		E831222877BB932405639A3B035AF4AD /* UICollectionView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+ELNUtils.m"; sourceTree = "<group>"; };
+		EE12207A1B9327FD8E5B691CCCE992C0 /* UIFont+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ELNUtils.m"; sourceTree = "<group>"; };
 		F0E8E933BBB10B1D337B8EB920CB31DE /* Pods-elnutilsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-elnutilsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F13CE3BCCC08C9D2747E635F071AA19C /* UICollectionView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+ELNUtils.h"; sourceTree = "<group>"; };
+		F9516F70B7E455BF7E2F7B0FB162B63C /* UITableView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ELNUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,15 +179,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		480759ED78CC6E837869256A6A3BBEB8 /* Support Files */ = {
+		0D7EB34396229E3BCCADF665C5207E64 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				70134C3AB95C599AB5EEC1DE86641F9C /* ELNUtils.xcconfig */,
-				98AB57ABF71F99FDF6036DF977C8C7B3 /* ELNUtils-dummy.m */,
-				2359D4DDBD4F1EDCEB49ED6F1704132E /* ELNUtils-prefix.pch */,
+				E322EE3649686200A835CCDB4B356432 /* ELNLayoutUtils.h */,
+				C3CD1D381222B537B139A047007DBB12 /* ELNLayoutUtils.m */,
+				4512A0039F420B8E8908A569EB44F791 /* ELNMath.h */,
+				A042F17DCAA6A87392BCB75B9FA1E0E3 /* ELNRuntime.h */,
+				29C2DB8B7C1D9458177B6986606CD27D /* ELNUtils.h */,
+				66B588D56F035C73A7EBADD15C7A449A /* NSArray+ELNUtils.h */,
+				5802A1FE7BBFA9B5757E2A8DD9E8AD75 /* NSArray+ELNUtils.m */,
+				510F50E8D5954C09EE98998CDAAD8B68 /* NSBundle+ELNUtils.h */,
+				80D1A2D85B328DD59AFCBDB4B200FCEE /* NSBundle+ELNUtils.m */,
+				86288FC14FA5C85FD3F3518111500E94 /* NSData+ELNUtils.h */,
+				A9F34D245FD908D5A0CC78404C5EBE3F /* NSData+ELNUtils.m */,
+				5F60296A531385D216AA86F7C164086C /* NSError+ELNUtils.h */,
+				03BFD9B8EE49A0ED7C1D922F38685691 /* NSError+ELNUtils.m */,
+				44DBE66A30BE750C08BE98EE513C9995 /* NSFileManager+ELNUtils.h */,
+				BA4CA60B897E11F0E79ECD481995DC8F /* NSFileManager+ELNUtils.m */,
+				8A2FB692D8EC8809C5563C8E0B1B26EE /* NSLocale+ELNUtils.h */,
+				43B45AC3D92726B19D040E7B70ADF541 /* NSLocale+ELNUtils.m */,
+				216C69CDB54BA8AF80A54D69C88C2078 /* NSNumber+ELNUtils.h */,
+				BA4A518EAF775BF73FA10DF84D295776 /* NSNumber+ELNUtils.m */,
+				52FE0FED833F43273FBF2D61C0F9D340 /* NSSortDescriptor+ELNUtils.h */,
+				D1474F9A8266AC40249E064AE6383510 /* NSSortDescriptor+ELNUtils.m */,
+				186E76C64F65CDF81DC3797D37695EAE /* NSString+ELNUtils.h */,
+				645F4B0BDE9EE5A9A52AB8D2FA3383BA /* NSString+ELNUtils.m */,
+				8AB95DB0CBCCB7E0D6B83A1C96470A32 /* NSURLRequest+ELNUtils.h */,
+				E68D234012AC90D812D1AFE25B525F0B /* NSURLRequest+ELNUtils.m */,
+				F13CE3BCCC08C9D2747E635F071AA19C /* UICollectionView+ELNUtils.h */,
+				E831222877BB932405639A3B035AF4AD /* UICollectionView+ELNUtils.m */,
+				8F239E6FB862028D398B4E19EE5881AC /* UIColor+ELNUtils.h */,
+				BA9A7BE124EC0F7E410C4ADA8C408889 /* UIColor+ELNUtils.m */,
+				3EB2C1776B7732EF1B2E8D3B06A721CA /* UIFont+ELNUtils.h */,
+				EE12207A1B9327FD8E5B691CCCE992C0 /* UIFont+ELNUtils.m */,
+				5C264E22B8236E9719E4772BF08B7921 /* UIImage+ELNUtils.h */,
+				9D214BD6A35533BA51787946AD095078 /* UIImage+ELNUtils.m */,
+				70B0FC30CED40897B94CE0B266537A6E /* UILabel+ELNUtils.h */,
+				C4B3A3A3F06C46EAB4D982DEEF62F6CE /* UILabel+ELNUtils.m */,
+				2B2241682B0E7D82AFD936D532E2E4A7 /* UIResponder+ELNUtils.h */,
+				BC88418AEE6C3DB47CA7F0A154DEA139 /* UIResponder+ELNUtils.m */,
+				B062BC1AC186C7B18C3C96BF5E652F11 /* UITableView+ELNUtils.h */,
+				F9516F70B7E455BF7E2F7B0FB162B63C /* UITableView+ELNUtils.m */,
+				6893CA3113C61E225A8482273E303928 /* UITableViewCell+ELNUtils.h */,
+				AB289CD1C92EE253DABC93E2C1EF9948 /* UITableViewCell+ELNUtils.m */,
+				9E27B62962C8498D59DD96E06C3C2442 /* UIView+ELNUtils.h */,
+				894FF0C938596FF9D2F6747FC0990F36 /* UIView+ELNUtils.m */,
+				7C86F70B33D9457A9095D8706CA95C89 /* UIViewController+ELNUtils.h */,
+				E0650213058687335722FF1343FD3717 /* UIViewController+ELNUtils.m */,
+				98DEB58C2E8F85835383316DEBC27680 /* UIWindow+ELNUtils.h */,
+				BEE1AFDB512E0A6B38D2C2CF675A98DB /* UIWindow+ELNUtils.m */,
 			);
-			name = "Support Files";
-			path = "example/Pods/Target Support Files/ELNUtils";
+			path = Source;
 			sourceTree = "<group>";
 		};
 		6EF2184E9E57974C95208261B629F63B /* Pods-elnutilsTests */ = {
@@ -208,7 +251,7 @@
 		71B742DD835FA6910C46056A4B8CE2E2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD90D9DFA3CAD9F921BE1A923AEA5B0C /* ELNUtils */,
+				CB77270ADA868188F9F12391C7ADB2DF /* ELNUtils */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -222,60 +265,6 @@
 				921E531D0D20B8E649788BD6F15B53DA /* Products */,
 				C0F557F7335133E604F45BB15B139977 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		841393DDEA79A8E6C6D219A4966E3879 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				BDD5B07CBCD6E7EA93E2E355583DD090 /* ELNLayoutUtils.h */,
-				0F472E31299E294EC6A7D7B318BCDC48 /* ELNLayoutUtils.m */,
-				CD98DD03CC04397CFD11D14716F2B8E3 /* ELNMath.h */,
-				2C2B9D3488526D5DDCB7E9F728F9A12B /* ELNRuntime.h */,
-				57ED40B375DD858EF33AF2E43075A29B /* ELNUtils.h */,
-				6588178E4A544A4B61FBE3F284162579 /* NSArray+ELNUtils.h */,
-				DEE8F525ECA0C2506E4ED07A70C6860B /* NSArray+ELNUtils.m */,
-				C46C0A04E8B60832AA994A8F7666878C /* NSBundle+ELNUtils.h */,
-				C7AC4805FE01BB4CA094FC9AB0633D0C /* NSBundle+ELNUtils.m */,
-				9536918BB6A1D76051FF4D1F775450F9 /* NSData+ELNUtils.h */,
-				D5704C3989E0AE2475A84A28597D3C4C /* NSData+ELNUtils.m */,
-				AD8CA2FB25BB0AD8951903CE41C8DC64 /* NSError+ELNUtils.h */,
-				18EC8F7552183F5CF160F9AD023C246E /* NSError+ELNUtils.m */,
-				CB8E46487D0C33C5872E17F21DA7BBD2 /* NSFileManager+ELNUtils.h */,
-				96DA49AAE4A77CF88C80CB43504ACE97 /* NSFileManager+ELNUtils.m */,
-				B44047E6784942F0489A6BB4AA2780BA /* NSLocale+ELNUtils.h */,
-				8015297A39784CCAFCB2474E98ED429F /* NSLocale+ELNUtils.m */,
-				46654D6F8B40413280A84166C0B2CEB6 /* NSNumber+ELNUtils.h */,
-				75EA40C1F2AB6DB37624880CA02B63AC /* NSNumber+ELNUtils.m */,
-				53412A052910D5AC8FFCE945E93498F0 /* NSSortDescriptor+ELNUtils.h */,
-				C1788BF8EA9B80D95939AF2935EB4E23 /* NSSortDescriptor+ELNUtils.m */,
-				8F298382117FF908320695FB7ABD1AAF /* NSString+ELNUtils.h */,
-				1D7BC870CF513D6156AB36A1FD3EB721 /* NSString+ELNUtils.m */,
-				E250046CEF75C1B7998071816E80EEB0 /* NSURLRequest+ELNUtils.h */,
-				64138C3B71A0D014543FAE4A9E75AE35 /* NSURLRequest+ELNUtils.m */,
-				9AEE936BEFE8F5023E87E8AE292F91DC /* UICollectionView+ELNUtils.h */,
-				5820E3DD919EC23358251DA79CC9104A /* UICollectionView+ELNUtils.m */,
-				61FA13EEA23F547A9DF2300D37FE0165 /* UIColor+ELNUtils.h */,
-				1FCF87CA527235490816AF0956EBFED1 /* UIColor+ELNUtils.m */,
-				43EFED12C2813011ADCD0B789108CAB6 /* UIFont+ELNUtils.h */,
-				513CA53EA4FF33F0B3EDE10C203F012B /* UIFont+ELNUtils.m */,
-				C3E39ACA9A1C2C39BD829B20537999A0 /* UIImage+ELNUtils.h */,
-				1231B82F4C2E348C6235544DB6171112 /* UIImage+ELNUtils.m */,
-				A1DF2F8B7B9AA5030042C987585D1242 /* UILabel+ELNUtils.h */,
-				0889B423463857A2218A4CD3CCA2A9A9 /* UILabel+ELNUtils.m */,
-				32411EC0FB51AF4CA64EDEE99B02A52A /* UIResponder+ELNUtils.h */,
-				1F2655A795A2C182A58D8C3A317FF904 /* UIResponder+ELNUtils.m */,
-				D3C6347625C1C645A2867B228302067E /* UITableView+ELNUtils.h */,
-				C487E103E22AD0491596B7756E875456 /* UITableView+ELNUtils.m */,
-				2B28ECA52329D595CC360EB9ED6C611C /* UITableViewCell+ELNUtils.h */,
-				2A30C50AFCCDC0F7BC2702A4598ECAF8 /* UITableViewCell+ELNUtils.m */,
-				5159E3FE795EFB981EEEB7FAA83FE16D /* UIView+ELNUtils.h */,
-				7A629136D7E3344C1D6682C9EA5625A0 /* UIView+ELNUtils.m */,
-				E324A769F553BBD334775FEE5453C9AC /* UIViewController+ELNUtils.h */,
-				5A0AB6FCED47FDD9E46D84F80167BAE0 /* UIViewController+ELNUtils.m */,
-				EB46096EF8E7A356FB6565666DD72FC6 /* UIWindow+ELNUtils.h */,
-				A09C8EDFFA36038001FC018D25372B01 /* UIWindow+ELNUtils.m */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 		84882140D188042455581B7193B72848 /* Pods-elnutils */ = {
@@ -311,16 +300,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD90D9DFA3CAD9F921BE1A923AEA5B0C /* ELNUtils */ = {
-			isa = PBXGroup;
-			children = (
-				841393DDEA79A8E6C6D219A4966E3879 /* Source */,
-				480759ED78CC6E837869256A6A3BBEB8 /* Support Files */,
-			);
-			name = ELNUtils;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +315,27 @@
 				6EF2184E9E57974C95208261B629F63B /* Pods-elnutilsTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CB77270ADA868188F9F12391C7ADB2DF /* ELNUtils */ = {
+			isa = PBXGroup;
+			children = (
+				0D7EB34396229E3BCCADF665C5207E64 /* Source */,
+				D1928CF2DE08530FBC9545447B1EAD19 /* Support Files */,
+			);
+			name = ELNUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D1928CF2DE08530FBC9545447B1EAD19 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55C078DCEFEB88E8312760A7EF312FBE /* ELNUtils.xcconfig */,
+				8D74F57ED0696EA92BBDF0E1307B164C /* ELNUtils-dummy.m */,
+				5DCEFFDCC6C1F130CF01A999999CAB48 /* ELNUtils-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ELNUtils";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -573,7 +573,7 @@
 		};
 		72C3FDFE977C2B61A18D4344263C206E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70134C3AB95C599AB5EEC1DE86641F9C /* ELNUtils.xcconfig */;
+			baseConfigurationReference = 55C078DCEFEB88E8312760A7EF312FBE /* ELNUtils.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ELNUtils/ELNUtils-prefix.pch";
@@ -591,7 +591,7 @@
 		};
 		7E7494FD8D09920CC8AC203F4DE18A21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70134C3AB95C599AB5EEC1DE86641F9C /* ELNUtils.xcconfig */;
+			baseConfigurationReference = 55C078DCEFEB88E8312760A7EF312FBE /* ELNUtils.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ELNUtils/ELNUtils-prefix.pch";
