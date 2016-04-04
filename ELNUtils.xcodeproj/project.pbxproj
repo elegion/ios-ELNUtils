@@ -55,6 +55,8 @@
 		115AC1501C9C04B700144790 /* ELNRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 115AC14F1C9C04B700144790 /* ELNRuntime.h */; };
 		118E9F3F1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 118E9F3D1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.h */; };
 		118E9F401CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 118E9F3E1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m */; };
+		11FC5B9E1CB29CE900856127 /* UIMotionEffect+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FC5B9C1CB29CE900856127 /* UIMotionEffect+ELNUtils.h */; };
+		11FC5B9F1CB29CE900856127 /* UIMotionEffect+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC5B9D1CB29CE900856127 /* UIMotionEffect+ELNUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +123,8 @@
 		115AC1531C9C121000144790 /* ELNMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELNMath.h; sourceTree = "<group>"; };
 		118E9F3D1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ELNUtils.h"; sourceTree = "<group>"; };
 		118E9F3E1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ELNUtils.m"; sourceTree = "<group>"; };
+		11FC5B9C1CB29CE900856127 /* UIMotionEffect+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIMotionEffect+ELNUtils.h"; sourceTree = "<group>"; };
+		11FC5B9D1CB29CE900856127 /* UIMotionEffect+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIMotionEffect+ELNUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +219,8 @@
 				111D9F4C1C85F1C600CF71B4 /* UIImage+ELNUtils.m */,
 				111D9F4D1C85F1C600CF71B4 /* UILabel+ELNUtils.h */,
 				111D9F4E1C85F1C600CF71B4 /* UILabel+ELNUtils.m */,
+				11FC5B9C1CB29CE900856127 /* UIMotionEffect+ELNUtils.h */,
+				11FC5B9D1CB29CE900856127 /* UIMotionEffect+ELNUtils.m */,
 				111D9F4F1C85F1C600CF71B4 /* UIResponder+ELNUtils.h */,
 				111D9F501C85F1C600CF71B4 /* UIResponder+ELNUtils.m */,
 				111D9F511C85F1C600CF71B4 /* UITableView+ELNUtils.h */,
@@ -291,6 +297,7 @@
 				111D9F721C85F1C600CF71B4 /* UICollectionView+ELNUtils.h in Headers */,
 				111D9F681C85F1C600CF71B4 /* NSLocale+ELNUtils.h in Headers */,
 				111D9F621C85F1C600CF71B4 /* NSData+ELNUtils.h in Headers */,
+				11FC5B9E1CB29CE900856127 /* UIMotionEffect+ELNUtils.h in Headers */,
 				111D9F821C85F1C600CF71B4 /* UIView+ELNUtils.h in Headers */,
 				111D9F7A1C85F1C600CF71B4 /* UILabel+ELNUtils.h in Headers */,
 				111D9F761C85F1C600CF71B4 /* UIFont+ELNUtils.h in Headers */,
@@ -405,6 +412,7 @@
 				111D9F7B1C85F1C600CF71B4 /* UILabel+ELNUtils.m in Sources */,
 				111D9F791C85F1C600CF71B4 /* UIImage+ELNUtils.m in Sources */,
 				111D9F811C85F1C600CF71B4 /* UITableViewCell+ELNUtils.m in Sources */,
+				11FC5B9F1CB29CE900856127 /* UIMotionEffect+ELNUtils.m in Sources */,
 				111D9F611C85F1C600CF71B4 /* NSArray+ELNUtils.m in Sources */,
 				118E9F401CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m in Sources */,
 				111D9F711C85F1C600CF71B4 /* NSURLRequest+ELNUtils.m in Sources */,
