@@ -57,6 +57,8 @@
 		118E9F401CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 118E9F3E1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m */; };
 		11FC5B9E1CB29CE900856127 /* UIMotionEffect+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FC5B9C1CB29CE900856127 /* UIMotionEffect+ELNUtils.h */; };
 		11FC5B9F1CB29CE900856127 /* UIMotionEffect+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC5B9D1CB29CE900856127 /* UIMotionEffect+ELNUtils.m */; };
+		11FC5BA21CB2A35D00856127 /* UINavigationController+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FC5BA01CB2A35D00856127 /* UINavigationController+ELNUtils.h */; };
+		11FC5BA31CB2A35D00856127 /* UINavigationController+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC5BA11CB2A35D00856127 /* UINavigationController+ELNUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +127,8 @@
 		118E9F3E1CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ELNUtils.m"; sourceTree = "<group>"; };
 		11FC5B9C1CB29CE900856127 /* UIMotionEffect+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIMotionEffect+ELNUtils.h"; sourceTree = "<group>"; };
 		11FC5B9D1CB29CE900856127 /* UIMotionEffect+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIMotionEffect+ELNUtils.m"; sourceTree = "<group>"; };
+		11FC5BA01CB2A35D00856127 /* UINavigationController+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ELNUtils.h"; sourceTree = "<group>"; };
+		11FC5BA11CB2A35D00856127 /* UINavigationController+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ELNUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +225,8 @@
 				111D9F4E1C85F1C600CF71B4 /* UILabel+ELNUtils.m */,
 				11FC5B9C1CB29CE900856127 /* UIMotionEffect+ELNUtils.h */,
 				11FC5B9D1CB29CE900856127 /* UIMotionEffect+ELNUtils.m */,
+				11FC5BA01CB2A35D00856127 /* UINavigationController+ELNUtils.h */,
+				11FC5BA11CB2A35D00856127 /* UINavigationController+ELNUtils.m */,
 				111D9F4F1C85F1C600CF71B4 /* UIResponder+ELNUtils.h */,
 				111D9F501C85F1C600CF71B4 /* UIResponder+ELNUtils.m */,
 				111D9F511C85F1C600CF71B4 /* UITableView+ELNUtils.h */,
@@ -303,6 +309,7 @@
 				111D9F761C85F1C600CF71B4 /* UIFont+ELNUtils.h in Headers */,
 				111D9F861C85F1C600CF71B4 /* UIWindow+ELNUtils.h in Headers */,
 				111D9F661C85F1C600CF71B4 /* NSFileManager+ELNUtils.h in Headers */,
+				11FC5BA21CB2A35D00856127 /* UINavigationController+ELNUtils.h in Headers */,
 				111D9F6A1C85F1C600CF71B4 /* NSNumber+ELNUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +421,7 @@
 				111D9F811C85F1C600CF71B4 /* UITableViewCell+ELNUtils.m in Sources */,
 				11FC5B9F1CB29CE900856127 /* UIMotionEffect+ELNUtils.m in Sources */,
 				111D9F611C85F1C600CF71B4 /* NSArray+ELNUtils.m in Sources */,
+				11FC5BA31CB2A35D00856127 /* UINavigationController+ELNUtils.m in Sources */,
 				118E9F401CA1A6A600C8BEE6 /* NSBundle+ELNUtils.m in Sources */,
 				111D9F711C85F1C600CF71B4 /* NSURLRequest+ELNUtils.m in Sources */,
 				111D9F7F1C85F1C600CF71B4 /* UITableView+ELNUtils.m in Sources */,

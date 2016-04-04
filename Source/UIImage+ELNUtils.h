@@ -15,6 +15,7 @@
 
 /// Create 1x1 px transparent image with specified color.
 + (UIImage *)eln_imageWithColor:(UIColor *)color;
+
 /// Create transparent oval image with specified size and color.
 + (UIImage *)eln_ovalImageWithSize:(CGSize)size color:(UIColor *)color fill:(BOOL)fill;
 
