@@ -12,16 +12,13 @@
 
 - (void)eln_deselectSelectedRowsAnimated:(BOOL)animated;
 
-@end
-
-
-@interface UICollectionView (ELNNibRegistration)
-
 /// Register cell class by reuse identifier equal to class name.
-- (void)eln_registerCellForClass:(Class)cellClass;
+- (void)eln_registerCellWithClass:(Class)cellClass;
+
 /// Register NIB named same as class by reuse identifier equal to class name.
-- (void)eln_registerCellNIBForClass:(Class)cellClass;
+- (void)eln_registerCellNibWithClass:(Class)cellClass;
+
 /// Dequeue cell by reuse identifier equal to class name.
-- (id)eln_dequeueReusableCellForClass:(Class)cellClass indexPath:(NSIndexPath *)indexPath;
+- (__kindof UICollectionViewCell *)eln_dequeueReusableCellWithClass:(Class)cellClass indexPath:(NSIndexPath *)indexPath;
 
 @end

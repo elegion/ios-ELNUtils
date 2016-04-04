@@ -25,25 +25,25 @@
  */
 - (void)eln_setRefreshControl:(UIRefreshControl *)refreshControl;
 
-@end
-
-
-@interface UITableView (ELNNibRegistration)
-
 /// Register cell class by reuse identifier equal to class name.
-- (void)eln_registerCellForClass:(Class)cellClass;
+- (void)eln_registerCellWithClass:(Class)cellClass;
+
 /// Register NIB named same as class by reuse identifier equal to class name.
-- (void)eln_registerCellNIBForClass:(Class)cellClass;
+- (void)eln_registerCellNibWithClass:(Class)cellClass;
+
 /// Dequeue cell by reuse identifier equal to class name.
-- (id)eln_dequeueReusableCellForClass:(Class)cellClass;
+- (id)eln_dequeueReusableCellWithClass:(Class)cellClass;
+
 /// Dequeue cell by reuse identifier equal to class name.
-- (id)eln_dequeueReusableCellForClass:(Class)cellClass indexPath:(NSIndexPath *)indexPath;
+- (id)eln_dequeueReusableCellWithClass:(Class)cellClass indexPath:(NSIndexPath *)indexPath;
 
 /// Register header/footer class by reuse identifier equal to class name.
-- (void)eln_registerHeaderFooterViewForClass:(Class)headerFooterViewClass;
+- (void)eln_registerHeaderFooterViewWithClass:(Class)headerFooterViewClass;
+
 /// Register header/footer NIB named same as class by reuse identifier equal to class name.
-- (void)eln_registerHeaderFooterViewNIBForClass:(Class)headerFooterViewClass;
+- (void)eln_registerHeaderFooterViewNibWithClass:(Class)headerFooterViewClass;
+
 /// Dequeue header/footer by reuse identifier equal to class name.
-- (id)eln_dequeueReusableHeaderFooterViewForClass:(Class)headerFooterViewClass;
+- (id)eln_dequeueReusableHeaderFooterViewWithClass:(Class)headerFooterViewClass;
 
 @end
