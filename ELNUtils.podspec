@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ELNUtils"
-  s.version      = "0.3.2"
+  s.version      = "0.4.0"
   s.summary      = "e-Legion set of utility things for more comfortable everything."
   s.homepage     = "https://github.com/elegion/ios-ELNUtils"
   s.authors      = "."
