@@ -19,4 +19,7 @@
 /// Create transparent oval image with specified size and color.
 + (UIImage *)eln_ovalImageWithSize:(CGSize)size color:(UIColor *)color fill:(BOOL)fill;
 
+/// Render mask alpha image with specified color like system type buttons do.
++ (UIImage *)eln_alphaImageNamed:(NSString *)name blendedWithColor:(UIColor *)color;
+
 @end
