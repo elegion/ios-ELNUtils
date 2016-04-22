@@ -183,8 +183,6 @@
 		111D9F891C85F1DD00CF71B4 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				111D9F2F1C85F1C600CF71B4 /* ELNLayoutUtils.h */,
-				111D9F301C85F1C600CF71B4 /* ELNLayoutUtils.m */,
 				115AC14F1C9C04B700144790 /* ELNRuntime.h */,
 				111D9F331C85F1C600CF71B4 /* NSArray+ELNUtils.h */,
 				111D9F341C85F1C600CF71B4 /* NSArray+ELNUtils.m */,
@@ -213,6 +211,8 @@
 		111D9F8A1C85F1F600CF71B4 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				111D9F2F1C85F1C600CF71B4 /* ELNLayoutUtils.h */,
+				111D9F301C85F1C600CF71B4 /* ELNLayoutUtils.m */,
 				111D9F451C85F1C600CF71B4 /* UICollectionView+ELNUtils.h */,
 				111D9F461C85F1C600CF71B4 /* UICollectionView+ELNUtils.m */,
 				111D9F471C85F1C600CF71B4 /* UIColor+ELNUtils.h */,
