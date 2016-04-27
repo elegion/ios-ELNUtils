@@ -38,11 +38,9 @@ static NSTimeInterval const kAnimationDuration = 0.3;
     switch (animation) {
         case ELNNavigationControllerTransitionAnimationNone:
             return [self popViewControllerAnimated:NO];
-            break;
             
         case ELNNavigationControllerTransitionAnimationDefault:
             return [self popViewControllerAnimated:YES];
-            break;
             
         case ELNNavigationControllerTransitionAnimationFade: {
             CATransition *transition = [CATransition animation];
@@ -52,7 +50,6 @@ static NSTimeInterval const kAnimationDuration = 0.3;
             [self.view.layer addAnimation:transition forKey:nil];
             return [self popViewControllerAnimated:NO];
         }
-            break;
     }
 }
 
