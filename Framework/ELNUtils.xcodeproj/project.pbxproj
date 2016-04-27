@@ -153,7 +153,6 @@
 		111D9F181C85F17600CF71B4 = {
 			isa = PBXGroup;
 			children = (
-				111ED3FF1CA2A19800ED320A /* Framework */,
 				111D9F231C85F17600CF71B4 /* Products */,
 				111D9F2D1C85F1C600CF71B4 /* Source */,
 				111D9F9A1C85F47500CF71B4 /* Tests */,
@@ -172,12 +171,14 @@
 		111D9F2D1C85F1C600CF71B4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				FE81A6781CD16FC600AF9017 /* Supporting Files */,
 				111D9F311C85F1C600CF71B4 /* ELNUtils.h */,
 				111D9F891C85F1DD00CF71B4 /* Foundation */,
 				111D9F8A1C85F1F600CF71B4 /* UIKit */,
 				115AC1511C9C11F500144790 /* usr */,
 			);
-			path = Source;
+			name = Source;
+			path = ../Source;
 			sourceTree = "<group>";
 		};
 		111D9F891C85F1DD00CF71B4 /* Foundation */ = {
@@ -252,16 +253,6 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		111ED3FF1CA2A19800ED320A /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				111ED4001CA2A19800ED320A /* Default.xcconfig */,
-				111ED4011CA2A19800ED320A /* Info.plist */,
-			);
-			name = Framework;
-			path = Tests/Framework;
-			sourceTree = "<group>";
-		};
 		115AC1511C9C11F500144790 /* usr */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +267,16 @@
 				115AC1531C9C121000144790 /* ELNMath.h */,
 			);
 			name = include;
+			sourceTree = "<group>";
+		};
+		FE81A6781CD16FC600AF9017 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				111ED4001CA2A19800ED320A /* Default.xcconfig */,
+				111ED4011CA2A19800ED320A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = ../Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,6 +459,7 @@
 /* Begin XCBuildConfiguration section */
 		111D9F281C85F17600CF71B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111ED4001CA2A19800ED320A /* Default.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -506,6 +508,7 @@
 		};
 		111D9F291C85F17600CF71B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111ED4001CA2A19800ED320A /* Default.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -553,7 +556,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Framework/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.ELNUtils";
@@ -569,7 +572,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Framework/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.ELNUtils";
