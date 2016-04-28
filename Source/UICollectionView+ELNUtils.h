@@ -8,6 +8,8 @@
 
 @import UIKit;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UICollectionView (ELNUtils)
 
 - (void)eln_deselectSelectedRowsAnimated:(BOOL)animated;
@@ -22,3 +24,5 @@
 - (__kindof UICollectionViewCell *)eln_dequeueReusableCellWithClass:(Class)cellClass indexPath:(NSIndexPath *)indexPath;
 
 @end
+
+NS_ASSUME_NONNULL_END

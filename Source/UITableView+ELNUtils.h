@@ -8,6 +8,8 @@
 
 @import UIKit;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UITableView (ELNUtils)
 
 - (void)eln_deselectSelectedRowsAnimated:(BOOL)animated;
@@ -47,3 +49,5 @@
 - (id)eln_dequeueReusableHeaderFooterViewWithClass:(Class)headerFooterViewClass;
 
 @end
+
+NS_ASSUME_NONNULL_END

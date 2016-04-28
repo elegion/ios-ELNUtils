@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 typedef NS_ENUM(NSInteger, ELNNavigationControllerTransitionAnimation) {
     ELNNavigationControllerTransitionAnimationNone,
     ELNNavigationControllerTransitionAnimationFade,
@@ -18,6 +20,8 @@ typedef NS_ENUM(NSInteger, ELNNavigationControllerTransitionAnimation) {
 
 - (void)eln_pushViewController:(UIViewController *)viewController withAnimation:(ELNNavigationControllerTransitionAnimation)animation;
 
-- (UIViewController *)eln_popViewControllerWithAnimation:(ELNNavigationControllerTransitionAnimation)animation;
+- (nullable UIViewController *)eln_popViewControllerWithAnimation:(ELNNavigationControllerTransitionAnimation)animation;
 
 @end
+
+NS_ASSUME_NONNULL_END
