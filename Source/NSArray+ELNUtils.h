@@ -13,10 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSArray<__covariant ObjectType> (ELNUtils)
 
 /// Returns the first object in the array passing the test.
-- (ObjectType)eln_objectPassingTest:(BOOL (^)(ObjectType obj, NSUInteger idx, BOOL *stop))predicate;
+- (ObjectType _Nullable)eln_objectPassingTest:(BOOL (^)(ObjectType obj, NSUInteger idx, BOOL *stop))predicate;
 
 /// Returns object in the array passing the test considering specified options.
-- (ObjectType)eln_objectWithOptions:(NSEnumerationOptions)options passingTest:(BOOL (^)(ObjectType obj, NSUInteger idx, BOOL *stop))predicate;
+- (ObjectType _Nullable)eln_objectWithOptions:(NSEnumerationOptions)options passingTest:(BOOL (^)(ObjectType obj, NSUInteger idx, BOOL *stop))predicate;
 
 /// Returns objects in the array passing the test.
 - (NSArray<ObjectType> *)eln_objectsPassingTest:(BOOL (^)(ObjectType obj, NSUInteger idx, BOOL *stop))predicate;
