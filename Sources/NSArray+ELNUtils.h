@@ -33,6 +33,9 @@ to avoid parameter variable shadowing during nested block usage.
 */
 - (void)eln_apply:(void (^)(ObjectType obj))block;
 
+/// Returns YES if any object of collection passes predicate test
+- (BOOL)eln_any:(BOOL (^)(id, NSUInteger, BOOL *))predicate;
+
 @end
 
 NS_ASSUME_NONNULL_END
