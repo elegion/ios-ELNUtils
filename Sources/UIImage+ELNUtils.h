@@ -24,6 +24,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// Render mask alpha image with specified color like system type buttons do.
 + (UIImage *)eln_alphaImageNamed:(NSString *)name blendedWithColor:(UIColor *)color;
 
+/// Apply gaussian blur and saturation adjustment to image
+- (nullable UIImage *)eln_blurredImageWithRadius:(CGFloat)blurRadius saturationAdjustment:(CGFloat)saturation;
+
 @end
 
 NS_ASSUME_NONNULL_END
