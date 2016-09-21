@@ -53,4 +53,23 @@ static NSTimeInterval const kAnimationDuration = 0.3;
     }
 }
 
+- (void)eln_pushOrReplaceViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    NSUInteger index = [self.viewControllers indexOfObjectPassingTest:^BOOL(__kindof UIViewController * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if ([obj isKindOfClass:[viewController class]]) {
+            *stop = YES;
+            return YES;
+        }
+        
+        return NO;
+    }];
+    
+    [self pushViewController:viewController animated:animated];
+    
+    if (index != NSNotFound) {
+        NSMutableArray *stack = [self.viewControllers mutableCopy];
+        [stack removeObjectsInRange:NSMakeRange(index, (stack.count - index - 1))];
+        self.viewControllers = [stack copy];
+    }
+}
+
 @end
