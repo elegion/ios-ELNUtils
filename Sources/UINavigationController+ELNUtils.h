@@ -22,6 +22,8 @@ typedef NS_ENUM(NSInteger, ELNNavigationControllerTransitionAnimation) {
 
 - (nullable UIViewController *)eln_popViewControllerWithAnimation:(ELNNavigationControllerTransitionAnimation)animation;
 
+- (void)eln_pushOrReplaceViewController:(UIViewController *)viewController animated:(BOOL)animated;
+
 @end
 
 NS_ASSUME_NONNULL_END
