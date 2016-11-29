@@ -11,50 +11,6 @@
 		111D9F9E1C85F47500CF71B4 /* UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F9C1C85F47500CF71B4 /* UnitTest.m */; };
 		112BEFF11D6EF65A003B75EB /* Default.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 112BEFBC1D6EF65A003B75EB /* Default.xcconfig */; };
 		112BEFF61D6EF65A003B75EB /* ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFC11D6EF65A003B75EB /* ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		112BEFFA1D6EF65A003B75EB /* NSBundle+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFC51D6EF65A003B75EB /* NSBundle+ELNUtils.h */; };
-		112BEFFB1D6EF65A003B75EB /* NSBundle+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFC61D6EF65A003B75EB /* NSBundle+ELNUtils.m */; };
-		112BEFFC1D6EF65A003B75EB /* NSData+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFC71D6EF65A003B75EB /* NSData+ELNUtils.h */; };
-		112BEFFD1D6EF65A003B75EB /* NSData+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFC81D6EF65A003B75EB /* NSData+ELNUtils.m */; };
-		112BEFFE1D6EF65A003B75EB /* NSError+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFC91D6EF65A003B75EB /* NSError+ELNUtils.h */; };
-		112BEFFF1D6EF65A003B75EB /* NSError+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFCA1D6EF65A003B75EB /* NSError+ELNUtils.m */; };
-		112BF0001D6EF65A003B75EB /* NSFileManager+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFCB1D6EF65A003B75EB /* NSFileManager+ELNUtils.h */; };
-		112BF0011D6EF65A003B75EB /* NSFileManager+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFCC1D6EF65A003B75EB /* NSFileManager+ELNUtils.m */; };
-		112BF0021D6EF65A003B75EB /* NSLocale+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFCD1D6EF65A003B75EB /* NSLocale+ELNUtils.h */; };
-		112BF0031D6EF65A003B75EB /* NSLocale+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFCE1D6EF65A003B75EB /* NSLocale+ELNUtils.m */; };
-		112BF0041D6EF65A003B75EB /* NSNumber+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFCF1D6EF65A003B75EB /* NSNumber+ELNUtils.h */; };
-		112BF0051D6EF65A003B75EB /* NSNumber+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFD01D6EF65A003B75EB /* NSNumber+ELNUtils.m */; };
-		112BF0061D6EF65A003B75EB /* NSSortDescriptor+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFD11D6EF65A003B75EB /* NSSortDescriptor+ELNUtils.h */; };
-		112BF0071D6EF65A003B75EB /* NSSortDescriptor+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFD21D6EF65A003B75EB /* NSSortDescriptor+ELNUtils.m */; };
-		112BF0081D6EF65A003B75EB /* NSString+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFD31D6EF65A003B75EB /* NSString+ELNUtils.h */; };
-		112BF0091D6EF65A003B75EB /* NSString+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFD41D6EF65A003B75EB /* NSString+ELNUtils.m */; };
-		112BF00A1D6EF65A003B75EB /* NSURLRequest+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFD51D6EF65A003B75EB /* NSURLRequest+ELNUtils.h */; };
-		112BF00B1D6EF65A003B75EB /* NSURLRequest+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFD61D6EF65A003B75EB /* NSURLRequest+ELNUtils.m */; };
-		112BF00C1D6EF65A003B75EB /* UICollectionView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFD71D6EF65A003B75EB /* UICollectionView+ELNUtils.h */; };
-		112BF00D1D6EF65A003B75EB /* UICollectionView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFD81D6EF65A003B75EB /* UICollectionView+ELNUtils.m */; };
-		112BF00E1D6EF65A003B75EB /* UIColor+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFD91D6EF65A003B75EB /* UIColor+ELNUtils.h */; };
-		112BF00F1D6EF65A003B75EB /* UIColor+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFDA1D6EF65A003B75EB /* UIColor+ELNUtils.m */; };
-		112BF0101D6EF65A003B75EB /* UIFont+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFDB1D6EF65A003B75EB /* UIFont+ELNUtils.h */; };
-		112BF0111D6EF65A003B75EB /* UIFont+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFDC1D6EF65A003B75EB /* UIFont+ELNUtils.m */; };
-		112BF0121D6EF65A003B75EB /* UIImage+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFDD1D6EF65A003B75EB /* UIImage+ELNUtils.h */; };
-		112BF0131D6EF65A003B75EB /* UIImage+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFDE1D6EF65A003B75EB /* UIImage+ELNUtils.m */; };
-		112BF0141D6EF65A003B75EB /* UILabel+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFDF1D6EF65A003B75EB /* UILabel+ELNUtils.h */; };
-		112BF0151D6EF65A003B75EB /* UILabel+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFE01D6EF65A003B75EB /* UILabel+ELNUtils.m */; };
-		112BF0161D6EF65A003B75EB /* UIMotionEffect+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFE11D6EF65A003B75EB /* UIMotionEffect+ELNUtils.h */; };
-		112BF0171D6EF65A003B75EB /* UIMotionEffect+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFE21D6EF65A003B75EB /* UIMotionEffect+ELNUtils.m */; };
-		112BF0181D6EF65A003B75EB /* UINavigationController+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFE31D6EF65A003B75EB /* UINavigationController+ELNUtils.h */; };
-		112BF0191D6EF65A003B75EB /* UINavigationController+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFE41D6EF65A003B75EB /* UINavigationController+ELNUtils.m */; };
-		112BF01A1D6EF65A003B75EB /* UIResponder+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFE51D6EF65A003B75EB /* UIResponder+ELNUtils.h */; };
-		112BF01B1D6EF65A003B75EB /* UIResponder+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFE61D6EF65A003B75EB /* UIResponder+ELNUtils.m */; };
-		112BF01C1D6EF65A003B75EB /* UITableView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFE71D6EF65A003B75EB /* UITableView+ELNUtils.h */; };
-		112BF01D1D6EF65A003B75EB /* UITableView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFE81D6EF65A003B75EB /* UITableView+ELNUtils.m */; };
-		112BF01E1D6EF65A003B75EB /* UITableViewCell+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFE91D6EF65A003B75EB /* UITableViewCell+ELNUtils.h */; };
-		112BF01F1D6EF65A003B75EB /* UITableViewCell+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFEA1D6EF65A003B75EB /* UITableViewCell+ELNUtils.m */; };
-		112BF0201D6EF65A003B75EB /* UIView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFEB1D6EF65A003B75EB /* UIView+ELNUtils.h */; };
-		112BF0211D6EF65A003B75EB /* UIView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFEC1D6EF65A003B75EB /* UIView+ELNUtils.m */; };
-		112BF0221D6EF65A003B75EB /* UIViewController+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFED1D6EF65A003B75EB /* UIViewController+ELNUtils.h */; };
-		112BF0231D6EF65A003B75EB /* UIViewController+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFEE1D6EF65A003B75EB /* UIViewController+ELNUtils.m */; };
-		112BF0241D6EF65A003B75EB /* UIWindow+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFEF1D6EF65A003B75EB /* UIWindow+ELNUtils.h */; };
-		112BF0251D6EF65A003B75EB /* UIWindow+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFF01D6EF65A003B75EB /* UIWindow+ELNUtils.m */; };
 		11FA12F11DEDA6CE0076C54E /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA12F01DEDA6CE0076C54E /* UIWindow+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,8 +54,6 @@
 		112BEFD81D6EF65A003B75EB /* UICollectionView+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFD91D6EF65A003B75EB /* UIColor+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ELNUtils.h"; sourceTree = "<group>"; };
 		112BEFDA1D6EF65A003B75EB /* UIColor+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ELNUtils.m"; sourceTree = "<group>"; };
-		112BEFDB1D6EF65A003B75EB /* UIFont+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+ELNUtils.h"; sourceTree = "<group>"; };
-		112BEFDC1D6EF65A003B75EB /* UIFont+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFDD1D6EF65A003B75EB /* UIImage+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ELNUtils.h"; sourceTree = "<group>"; };
 		112BEFDE1D6EF65A003B75EB /* UIImage+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFDF1D6EF65A003B75EB /* UILabel+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ELNUtils.h"; sourceTree = "<group>"; };
@@ -118,8 +72,6 @@
 		112BEFEC1D6EF65A003B75EB /* UIView+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFED1D6EF65A003B75EB /* UIViewController+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ELNUtils.h"; sourceTree = "<group>"; };
 		112BEFEE1D6EF65A003B75EB /* UIViewController+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ELNUtils.m"; sourceTree = "<group>"; };
-		112BEFEF1D6EF65A003B75EB /* UIWindow+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ELNUtils.h"; sourceTree = "<group>"; };
-		112BEFF01D6EF65A003B75EB /* UIWindow+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+ELNUtils.m"; sourceTree = "<group>"; };
 		11FA12F01DEDA6CE0076C54E /* UIWindow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,8 +173,6 @@
 				112BEFD81D6EF65A003B75EB /* UICollectionView+ELNUtils.m */,
 				112BEFD91D6EF65A003B75EB /* UIColor+ELNUtils.h */,
 				112BEFDA1D6EF65A003B75EB /* UIColor+ELNUtils.m */,
-				112BEFDB1D6EF65A003B75EB /* UIFont+ELNUtils.h */,
-				112BEFDC1D6EF65A003B75EB /* UIFont+ELNUtils.m */,
 				112BEFDD1D6EF65A003B75EB /* UIImage+ELNUtils.h */,
 				112BEFDE1D6EF65A003B75EB /* UIImage+ELNUtils.m */,
 				112BEFDF1D6EF65A003B75EB /* UILabel+ELNUtils.h */,
@@ -241,9 +191,7 @@
 				112BEFEC1D6EF65A003B75EB /* UIView+ELNUtils.m */,
 				112BEFED1D6EF65A003B75EB /* UIViewController+ELNUtils.h */,
 				112BEFEE1D6EF65A003B75EB /* UIViewController+ELNUtils.m */,
-				112BEFEF1D6EF65A003B75EB /* UIWindow+ELNUtils.h */,
 				11FA12F01DEDA6CE0076C54E /* UIWindow+Extension.swift */,
-				112BEFF01D6EF65A003B75EB /* UIWindow+ELNUtils.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -255,29 +203,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112BF00E1D6EF65A003B75EB /* UIColor+ELNUtils.h in Headers */,
-				112BF0061D6EF65A003B75EB /* NSSortDescriptor+ELNUtils.h in Headers */,
-				112BF0181D6EF65A003B75EB /* UINavigationController+ELNUtils.h in Headers */,
 				112BEFF61D6EF65A003B75EB /* ELNUtils.h in Headers */,
-				112BF0161D6EF65A003B75EB /* UIMotionEffect+ELNUtils.h in Headers */,
-				112BF01A1D6EF65A003B75EB /* UIResponder+ELNUtils.h in Headers */,
-				112BEFFA1D6EF65A003B75EB /* NSBundle+ELNUtils.h in Headers */,
-				112BF01C1D6EF65A003B75EB /* UITableView+ELNUtils.h in Headers */,
-				112BF00C1D6EF65A003B75EB /* UICollectionView+ELNUtils.h in Headers */,
-				112BF00A1D6EF65A003B75EB /* NSURLRequest+ELNUtils.h in Headers */,
-				112BF0101D6EF65A003B75EB /* UIFont+ELNUtils.h in Headers */,
-				112BF0081D6EF65A003B75EB /* NSString+ELNUtils.h in Headers */,
-				112BF0241D6EF65A003B75EB /* UIWindow+ELNUtils.h in Headers */,
-				112BF01E1D6EF65A003B75EB /* UITableViewCell+ELNUtils.h in Headers */,
-				112BF0221D6EF65A003B75EB /* UIViewController+ELNUtils.h in Headers */,
-				112BF0121D6EF65A003B75EB /* UIImage+ELNUtils.h in Headers */,
-				112BF0041D6EF65A003B75EB /* NSNumber+ELNUtils.h in Headers */,
-				112BEFFC1D6EF65A003B75EB /* NSData+ELNUtils.h in Headers */,
-				112BF0141D6EF65A003B75EB /* UILabel+ELNUtils.h in Headers */,
-				112BF0201D6EF65A003B75EB /* UIView+ELNUtils.h in Headers */,
-				112BF0001D6EF65A003B75EB /* NSFileManager+ELNUtils.h in Headers */,
-				112BF0021D6EF65A003B75EB /* NSLocale+ELNUtils.h in Headers */,
-				112BEFFE1D6EF65A003B75EB /* NSError+ELNUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,29 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112BF0011D6EF65A003B75EB /* NSFileManager+ELNUtils.m in Sources */,
-				112BF0031D6EF65A003B75EB /* NSLocale+ELNUtils.m in Sources */,
-				112BF00F1D6EF65A003B75EB /* UIColor+ELNUtils.m in Sources */,
-				112BF0211D6EF65A003B75EB /* UIView+ELNUtils.m in Sources */,
-				112BF0171D6EF65A003B75EB /* UIMotionEffect+ELNUtils.m in Sources */,
-				112BF0111D6EF65A003B75EB /* UIFont+ELNUtils.m in Sources */,
 				11FA12F11DEDA6CE0076C54E /* UIWindow+Extension.swift in Sources */,
-				112BF0071D6EF65A003B75EB /* NSSortDescriptor+ELNUtils.m in Sources */,
-				112BF01F1D6EF65A003B75EB /* UITableViewCell+ELNUtils.m in Sources */,
-				112BF0151D6EF65A003B75EB /* UILabel+ELNUtils.m in Sources */,
-				112BF0131D6EF65A003B75EB /* UIImage+ELNUtils.m in Sources */,
-				112BF0051D6EF65A003B75EB /* NSNumber+ELNUtils.m in Sources */,
-				112BF0091D6EF65A003B75EB /* NSString+ELNUtils.m in Sources */,
-				112BF00D1D6EF65A003B75EB /* UICollectionView+ELNUtils.m in Sources */,
-				112BEFFB1D6EF65A003B75EB /* NSBundle+ELNUtils.m in Sources */,
-				112BF0251D6EF65A003B75EB /* UIWindow+ELNUtils.m in Sources */,
-				112BF01D1D6EF65A003B75EB /* UITableView+ELNUtils.m in Sources */,
-				112BF00B1D6EF65A003B75EB /* NSURLRequest+ELNUtils.m in Sources */,
-				112BEFFD1D6EF65A003B75EB /* NSData+ELNUtils.m in Sources */,
-				112BF01B1D6EF65A003B75EB /* UIResponder+ELNUtils.m in Sources */,
-				112BF0231D6EF65A003B75EB /* UIViewController+ELNUtils.m in Sources */,
-				112BEFFF1D6EF65A003B75EB /* NSError+ELNUtils.m in Sources */,
-				112BF0191D6EF65A003B75EB /* UINavigationController+ELNUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
