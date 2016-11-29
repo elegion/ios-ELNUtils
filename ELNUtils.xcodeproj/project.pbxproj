@@ -10,7 +10,7 @@
 		111D9F941C85F46700CF71B4 /* ELNUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111D9F221C85F17600CF71B4 /* ELNUtils.framework */; };
 		111D9F9E1C85F47500CF71B4 /* UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D9F9C1C85F47500CF71B4 /* UnitTest.m */; };
 		112BEFF11D6EF65A003B75EB /* Default.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 112BEFBC1D6EF65A003B75EB /* Default.xcconfig */; };
-		112BEFF61D6EF65A003B75EB /* ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFC11D6EF65A003B75EB /* ELNUtils.h */; };
+		112BEFF61D6EF65A003B75EB /* ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFC11D6EF65A003B75EB /* ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		112BEFFA1D6EF65A003B75EB /* NSBundle+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFC51D6EF65A003B75EB /* NSBundle+ELNUtils.h */; };
 		112BEFFB1D6EF65A003B75EB /* NSBundle+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFC61D6EF65A003B75EB /* NSBundle+ELNUtils.m */; };
 		112BEFFC1D6EF65A003B75EB /* NSData+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFC71D6EF65A003B75EB /* NSData+ELNUtils.h */; };
@@ -436,8 +436,10 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -484,8 +486,10 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -517,18 +521,17 @@
 		111D9F2B1C85F17600CF71B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.ELNUtils";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -536,12 +539,12 @@
 		111D9F2C1C85F17600CF71B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.ELNUtils";
