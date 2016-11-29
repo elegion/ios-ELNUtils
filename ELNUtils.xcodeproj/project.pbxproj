@@ -55,6 +55,7 @@
 		112BF0231D6EF65A003B75EB /* UIViewController+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFEE1D6EF65A003B75EB /* UIViewController+ELNUtils.m */; };
 		112BF0241D6EF65A003B75EB /* UIWindow+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BEFEF1D6EF65A003B75EB /* UIWindow+ELNUtils.h */; };
 		112BF0251D6EF65A003B75EB /* UIWindow+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEFF01D6EF65A003B75EB /* UIWindow+ELNUtils.m */; };
+		11FA12F11DEDA6CE0076C54E /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA12F01DEDA6CE0076C54E /* UIWindow+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		112BEFEE1D6EF65A003B75EB /* UIViewController+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFEF1D6EF65A003B75EB /* UIWindow+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ELNUtils.h"; sourceTree = "<group>"; };
 		112BEFF01D6EF65A003B75EB /* UIWindow+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+ELNUtils.m"; sourceTree = "<group>"; };
+		11FA12F01DEDA6CE0076C54E /* UIWindow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 				112BEFED1D6EF65A003B75EB /* UIViewController+ELNUtils.h */,
 				112BEFEE1D6EF65A003B75EB /* UIViewController+ELNUtils.m */,
 				112BEFEF1D6EF65A003B75EB /* UIWindow+ELNUtils.h */,
+				11FA12F01DEDA6CE0076C54E /* UIWindow+Extension.swift */,
 				112BEFF01D6EF65A003B75EB /* UIWindow+ELNUtils.m */,
 			);
 			name = UIKit;
@@ -328,6 +331,7 @@
 				TargetAttributes = {
 					111D9F211C85F17600CF71B4 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 					};
 					111D9F8E1C85F46700CF71B4 = {
 						CreatedOnToolsVersion = 7.3;
@@ -381,6 +385,7 @@
 				112BF0211D6EF65A003B75EB /* UIView+ELNUtils.m in Sources */,
 				112BF0171D6EF65A003B75EB /* UIMotionEffect+ELNUtils.m in Sources */,
 				112BF0111D6EF65A003B75EB /* UIFont+ELNUtils.m in Sources */,
+				11FA12F11DEDA6CE0076C54E /* UIWindow+Extension.swift in Sources */,
 				112BF0071D6EF65A003B75EB /* NSSortDescriptor+ELNUtils.m in Sources */,
 				112BF01F1D6EF65A003B75EB /* UITableViewCell+ELNUtils.m in Sources */,
 				112BF0151D6EF65A003B75EB /* UILabel+ELNUtils.m in Sources */,
@@ -512,6 +517,7 @@
 		111D9F2B1C85F17600CF71B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -522,12 +528,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.ELNUtils";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		111D9F2C1C85F17600CF71B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -538,12 +547,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.ELNUtils";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		111D9F981C85F46700CF71B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.UnitTest";
@@ -554,6 +565,7 @@
 		111D9F991C85F46700CF71B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.UnitTest";
