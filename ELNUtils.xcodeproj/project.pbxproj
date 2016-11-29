@@ -14,6 +14,9 @@
 		11DC01CB1DEDB291009264E4 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC01CA1DEDB291009264E4 /* Bundle+Extension.swift */; };
 		11DC01CD1DEDC7AF009264E4 /* Locale+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC01CC1DEDC7AF009264E4 /* Locale+Extension.swift */; };
 		11DC01CF1DEDC894009264E4 /* NSNumber+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC01CE1DEDC894009264E4 /* NSNumber+Extension.swift */; };
+		11DC01D31DEDCD7B009264E4 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC01D21DEDCD7B009264E4 /* FileManager+Extension.swift */; };
+		11DC01D51DEDCFBC009264E4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC01D41DEDCFBC009264E4 /* String+Extension.swift */; };
+		11DC01D71DEDD48D009264E4 /* NSString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC01D61DEDD48D009264E4 /* NSString+Extension.swift */; };
 		11FA12F11DEDA6CE0076C54E /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA12F01DEDA6CE0076C54E /* UIWindow+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,16 +38,10 @@
 		112BEFBC1D6EF65A003B75EB /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
 		112BEFC11D6EF65A003B75EB /* ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNUtils.h; sourceTree = "<group>"; };
 		112BEFC21D6EF65A003B75EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		112BEFC71D6EF65A003B75EB /* NSData+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ELNUtils.h"; sourceTree = "<group>"; };
-		112BEFC81D6EF65A003B75EB /* NSData+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFC91D6EF65A003B75EB /* NSError+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+ELNUtils.h"; sourceTree = "<group>"; };
 		112BEFCA1D6EF65A003B75EB /* NSError+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+ELNUtils.m"; sourceTree = "<group>"; };
-		112BEFCB1D6EF65A003B75EB /* NSFileManager+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+ELNUtils.h"; sourceTree = "<group>"; };
-		112BEFCC1D6EF65A003B75EB /* NSFileManager+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFD31D6EF65A003B75EB /* NSString+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ELNUtils.h"; sourceTree = "<group>"; };
 		112BEFD41D6EF65A003B75EB /* NSString+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELNUtils.m"; sourceTree = "<group>"; };
-		112BEFD51D6EF65A003B75EB /* NSURLRequest+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+ELNUtils.h"; sourceTree = "<group>"; };
-		112BEFD61D6EF65A003B75EB /* NSURLRequest+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFD71D6EF65A003B75EB /* UICollectionView+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+ELNUtils.h"; sourceTree = "<group>"; };
 		112BEFD81D6EF65A003B75EB /* UICollectionView+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFD91D6EF65A003B75EB /* UIColor+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ELNUtils.h"; sourceTree = "<group>"; };
@@ -70,6 +67,9 @@
 		11DC01CA1DEDB291009264E4 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		11DC01CC1DEDC7AF009264E4 /* Locale+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+Extension.swift"; sourceTree = "<group>"; };
 		11DC01CE1DEDC894009264E4 /* NSNumber+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNumber+Extension.swift"; sourceTree = "<group>"; };
+		11DC01D21DEDCD7B009264E4 /* FileManager+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		11DC01D41DEDCFBC009264E4 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		11DC01D61DEDD48D009264E4 /* NSString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Extension.swift"; sourceTree = "<group>"; };
 		11FA12F01DEDA6CE0076C54E /* UIWindow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,18 +143,15 @@
 			isa = PBXGroup;
 			children = (
 				11DC01CA1DEDB291009264E4 /* Bundle+Extension.swift */,
+				11DC01D21DEDCD7B009264E4 /* FileManager+Extension.swift */,
 				11DC01CC1DEDC7AF009264E4 /* Locale+Extension.swift */,
-				112BEFC71D6EF65A003B75EB /* NSData+ELNUtils.h */,
-				112BEFC81D6EF65A003B75EB /* NSData+ELNUtils.m */,
 				112BEFC91D6EF65A003B75EB /* NSError+ELNUtils.h */,
 				112BEFCA1D6EF65A003B75EB /* NSError+ELNUtils.m */,
-				112BEFCB1D6EF65A003B75EB /* NSFileManager+ELNUtils.h */,
-				112BEFCC1D6EF65A003B75EB /* NSFileManager+ELNUtils.m */,
 				11DC01CE1DEDC894009264E4 /* NSNumber+Extension.swift */,
 				112BEFD31D6EF65A003B75EB /* NSString+ELNUtils.h */,
 				112BEFD41D6EF65A003B75EB /* NSString+ELNUtils.m */,
-				112BEFD51D6EF65A003B75EB /* NSURLRequest+ELNUtils.h */,
-				112BEFD61D6EF65A003B75EB /* NSURLRequest+ELNUtils.m */,
+				11DC01D61DEDD48D009264E4 /* NSString+Extension.swift */,
+				11DC01D41DEDCFBC009264E4 /* String+Extension.swift */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -300,8 +297,11 @@
 			files = (
 				11DC01CD1DEDC7AF009264E4 /* Locale+Extension.swift in Sources */,
 				11DC01CF1DEDC894009264E4 /* NSNumber+Extension.swift in Sources */,
+				11DC01D71DEDD48D009264E4 /* NSString+Extension.swift in Sources */,
 				11FA12F11DEDA6CE0076C54E /* UIWindow+Extension.swift in Sources */,
+				11DC01D51DEDCFBC009264E4 /* String+Extension.swift in Sources */,
 				11DC01CB1DEDB291009264E4 /* Bundle+Extension.swift in Sources */,
+				11DC01D31DEDCD7B009264E4 /* FileManager+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

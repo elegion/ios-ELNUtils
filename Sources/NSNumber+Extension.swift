@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension NSNumber {
+public extension NSNumber {
     
     /// Returns a number of digits before floating point.
     public var eln_numberOfIntegerDigits: UInt {
