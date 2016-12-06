@@ -21,7 +21,7 @@ public extension UIMotionEffectGroup {
         vertical.minimumRelativeValue = -offset.vertical
         vertical.maximumRelativeValue = offset.vertical
         
-        self.motionEffects = [horizontal, vertical]
+        motionEffects = [horizontal, vertical]
     }
 
 }

@@ -39,7 +39,7 @@ public extension UIImage {
         let px = 1 / UIScreen.main.scale
         let width = cornerRadius * 2 + px
         let size = CGSize(width: width, height: width)
-        return self.eln_image(with: size) { rect, context in
+        return eln_image(with: size) { rect, context in
             fillColor.setFill()
             let path: UIBezierPath
             if let strokeColor = strokeColor {

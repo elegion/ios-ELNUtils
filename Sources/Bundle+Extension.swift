@@ -25,7 +25,7 @@ public extension Bundle {
     }
    
     public func eln_objectForInfoDictionary<T>(keyPath: String) -> T? {
-        return (self.infoDictionary as NSDictionary?)?.value(forKeyPath: keyPath) as? T
+        return (infoDictionary as NSDictionary?)?.value(forKeyPath: keyPath) as? T
     }
     
     /// Returns a union of CFBundleURLSchemes values declared in bundle's plist.
