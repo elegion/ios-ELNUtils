@@ -8,6 +8,14 @@
 
 import UIKit
 
+public extension UIViewAutoresizing {
+    
+    public static var flexibleMargins: UIViewAutoresizing = [.flexibleTopMargin, .flexibleLeftMargin, .flexibleBottomMargin, .flexibleRightMargin]
+    
+    public static var flexibleDimensions: UIViewAutoresizing = [.flexibleWidth, .flexibleHeight]
+    
+}
+
 public extension UIView {
     
     public func eln_wobble() {
