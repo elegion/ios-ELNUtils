@@ -50,10 +50,6 @@
 		112BEFBC1D6EF65A003B75EB /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
 		112BEFC11D6EF65A003B75EB /* ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNUtils.h; sourceTree = "<group>"; };
 		112BEFC21D6EF65A003B75EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		112BEFDD1D6EF65A003B75EB /* UIImage+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ELNUtils.h"; sourceTree = "<group>"; };
-		112BEFDE1D6EF65A003B75EB /* UIImage+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ELNUtils.m"; sourceTree = "<group>"; };
-		112BEFDF1D6EF65A003B75EB /* UILabel+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ELNUtils.h"; sourceTree = "<group>"; };
-		112BEFE01D6EF65A003B75EB /* UILabel+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFE91D6EF65A003B75EB /* UITableViewCell+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ELNUtils.h"; sourceTree = "<group>"; };
 		112BEFEA1D6EF65A003B75EB /* UITableViewCell+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ELNUtils.m"; sourceTree = "<group>"; };
 		115AF2A01DF772A000804707 /* CGGeometry+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGGeometry+Extension.swift"; sourceTree = "<group>"; };
@@ -164,11 +160,7 @@
 				115AF2B41DF77C2C00804707 /* IndexPathsSelectableContainer.swift */,
 				115AF2A21DF772FC00804707 /* UIColor+Extension.swift */,
 				115AF2A41DF7749E00804707 /* UIFont+Extension.swift */,
-				112BEFDD1D6EF65A003B75EB /* UIImage+ELNUtils.h */,
-				112BEFDE1D6EF65A003B75EB /* UIImage+ELNUtils.m */,
 				115AF2A61DF774E100804707 /* UIImage+Extension.swift */,
-				112BEFDF1D6EF65A003B75EB /* UILabel+ELNUtils.h */,
-				112BEFE01D6EF65A003B75EB /* UILabel+ELNUtils.m */,
 				115AF2B01DF776DB00804707 /* UIMotionEffectGroup+Extension.swift */,
 				115AF2C71DF9609600804707 /* UINavigationController+Extension.swift */,
 				115AF2A81DF7758B00804707 /* UIResponder+Extension.swift */,

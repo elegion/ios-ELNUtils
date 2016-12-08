@@ -12,7 +12,7 @@ import CoreGraphics
 public extension UIImage {
     
     /// Create image with specified size using block for drawing content
-    public class func eln_image(with size: CGSize, drawingBlock: ((CGRect, CGContext) -> Void)?) -> UIImage? {
+    public static func eln_image(with size: CGSize, drawingBlock: ((CGRect, CGContext) -> Void)?) -> UIImage? {
         UIGraphicsBeginImageContextWithOptions(size, false, 0)
         defer {
             UIGraphicsEndImageContext()
@@ -35,7 +35,7 @@ public extension UIImage {
         return image
     }
     
-    public class func eln_image(cornerRadius: CGFloat, fillColor: UIColor, strokeColor: UIColor? = nil, lineWidth: CGFloat = 1) -> UIImage? {
+    public static func eln_image(cornerRadius: CGFloat, fillColor: UIColor, strokeColor: UIColor? = nil, lineWidth: CGFloat = 1) -> UIImage? {
         let px = 1 / UIScreen.main.scale
         let width = cornerRadius * 2 + px
         let size = CGSize(width: width, height: width)
@@ -53,6 +53,14 @@ public extension UIImage {
                 path.fill()
             }
             }?.resizableImage(withCapInsets: UIEdgeInsets(top: cornerRadius, left: cornerRadius, bottom: cornerRadius, right: cornerRadius))
+    }
+    
+    /// Create 1x1 px transparent image with specified color.
+    public static func eln_image(color: UIColor) -> UIImage? {
+        return eln_image(with: CGSize(width: 1, height: 1)) { rect, context in
+            color.setFill()
+            UIBezierPath(rect: rect).fill()
+        }
     }
     
 }
