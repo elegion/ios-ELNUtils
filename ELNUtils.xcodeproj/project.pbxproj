@@ -57,8 +57,6 @@
 		112BEFE41D6EF65A003B75EB /* UINavigationController+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFE91D6EF65A003B75EB /* UITableViewCell+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ELNUtils.h"; sourceTree = "<group>"; };
 		112BEFEA1D6EF65A003B75EB /* UITableViewCell+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ELNUtils.m"; sourceTree = "<group>"; };
-		112BEFED1D6EF65A003B75EB /* UIViewController+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ELNUtils.h"; sourceTree = "<group>"; };
-		112BEFEE1D6EF65A003B75EB /* UIViewController+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ELNUtils.m"; sourceTree = "<group>"; };
 		115AF2A01DF772A000804707 /* CGGeometry+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGGeometry+Extension.swift"; sourceTree = "<group>"; };
 		115AF2A21DF772FC00804707 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		115AF2A41DF7749E00804707 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
@@ -179,8 +177,6 @@
 				112BEFE91D6EF65A003B75EB /* UITableViewCell+ELNUtils.h */,
 				112BEFEA1D6EF65A003B75EB /* UITableViewCell+ELNUtils.m */,
 				115AF2AA1DF775FC00804707 /* UIView+Extension.swift */,
-				112BEFED1D6EF65A003B75EB /* UIViewController+ELNUtils.h */,
-				112BEFEE1D6EF65A003B75EB /* UIViewController+ELNUtils.m */,
 				115AF2AE1DF7764600804707 /* UIViewController+Extension.swift */,
 				11FA12F01DEDA6CE0076C54E /* UIWindow+Extension.swift */,
 			);

@@ -21,5 +21,19 @@ extension UIViewController {
         view.removeFromSuperview()
         removeFromParentViewController()
     }
+
+    func eln_clearSelectionOnViewWillAppear(for container: IndexPathsSelectionContainer, animated: Bool) {
+        guard let indexPaths = container.selectedIndexPaths else {
+            return
+        }
+        
+        indexPaths.forEach({ container.deselect(indexPath: $0, animated: animated) })
+        
+        transitionCoordinator?.notifyWhenInteractionEnds { context in
+            if context.isCancelled {
+                indexPaths.forEach({ container.select(indexPath: $0, animated: animated) })
+            }
+        }
+    }
     
 }
