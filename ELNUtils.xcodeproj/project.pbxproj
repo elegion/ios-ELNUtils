@@ -29,6 +29,7 @@
 		115AF2C41DF77E5000804707 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AF2B21DF778A900804707 /* UIScrollView+Extension.swift */; };
 		115AF2C51DF77E5000804707 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AF2AE1DF7764600804707 /* UIViewController+Extension.swift */; };
 		115AF2C61DF77E5000804707 /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA12F01DEDA6CE0076C54E /* UIWindow+Extension.swift */; };
+		115AF2C81DF9609600804707 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AF2C71DF9609600804707 /* UINavigationController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +54,6 @@
 		112BEFDE1D6EF65A003B75EB /* UIImage+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFDF1D6EF65A003B75EB /* UILabel+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ELNUtils.h"; sourceTree = "<group>"; };
 		112BEFE01D6EF65A003B75EB /* UILabel+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ELNUtils.m"; sourceTree = "<group>"; };
-		112BEFE31D6EF65A003B75EB /* UINavigationController+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ELNUtils.h"; sourceTree = "<group>"; };
-		112BEFE41D6EF65A003B75EB /* UINavigationController+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ELNUtils.m"; sourceTree = "<group>"; };
 		112BEFE91D6EF65A003B75EB /* UITableViewCell+ELNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ELNUtils.h"; sourceTree = "<group>"; };
 		112BEFEA1D6EF65A003B75EB /* UITableViewCell+ELNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ELNUtils.m"; sourceTree = "<group>"; };
 		115AF2A01DF772A000804707 /* CGGeometry+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGGeometry+Extension.swift"; sourceTree = "<group>"; };
@@ -67,6 +66,7 @@
 		115AF2B01DF776DB00804707 /* UIMotionEffectGroup+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIMotionEffectGroup+Extension.swift"; sourceTree = "<group>"; };
 		115AF2B21DF778A900804707 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
 		115AF2B41DF77C2C00804707 /* IndexPathsSelectableContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexPathsSelectableContainer.swift; sourceTree = "<group>"; };
+		115AF2C71DF9609600804707 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
 		11DC01CA1DEDB291009264E4 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		11DC01CC1DEDC7AF009264E4 /* Locale+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+Extension.swift"; sourceTree = "<group>"; };
 		11DC01CE1DEDC894009264E4 /* NSNumber+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNumber+Extension.swift"; sourceTree = "<group>"; };
@@ -170,8 +170,7 @@
 				112BEFDF1D6EF65A003B75EB /* UILabel+ELNUtils.h */,
 				112BEFE01D6EF65A003B75EB /* UILabel+ELNUtils.m */,
 				115AF2B01DF776DB00804707 /* UIMotionEffectGroup+Extension.swift */,
-				112BEFE31D6EF65A003B75EB /* UINavigationController+ELNUtils.h */,
-				112BEFE41D6EF65A003B75EB /* UINavigationController+ELNUtils.m */,
+				115AF2C71DF9609600804707 /* UINavigationController+Extension.swift */,
 				115AF2A81DF7758B00804707 /* UIResponder+Extension.swift */,
 				115AF2B21DF778A900804707 /* UIScrollView+Extension.swift */,
 				112BEFE91D6EF65A003B75EB /* UITableViewCell+ELNUtils.h */,
@@ -302,6 +301,7 @@
 			files = (
 				115AF2C11DF77E5000804707 /* UIImage+Extension.swift in Sources */,
 				115AF2AB1DF775FC00804707 /* UIView+Extension.swift in Sources */,
+				115AF2C81DF9609600804707 /* UINavigationController+Extension.swift in Sources */,
 				115AF2C31DF77E5000804707 /* UIResponder+Extension.swift in Sources */,
 				115AF2BD1DF77E5000804707 /* String+Extension.swift in Sources */,
 				115AF2C51DF77E5000804707 /* UIViewController+Extension.swift in Sources */,
